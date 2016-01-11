@@ -1,0 +1,996 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head><title>UniProtKB column names for programmatic access</title><meta content="IE=edge" http-equiv="X-UA-Compatible"><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"><meta content="width=device-width, initial-scale=1" name="viewport"><link href="http://www.uniprot.org/" rel="home"><link href="http://creativecommons.org/licenses/by-nd/3.0/" rel="license"><link type="image/vnd.microsoft.icon" href="http://www.uniprot.org/favicon.ico" rel="shortcut icon"><link href="UniProtKB%20column%20names%20for%20programmatic%20access_fichiers/css-compr.css" type="text/css" rel="stylesheet"><style type="text/css">h1 {font-size:277%;}
+	</style><script type="text/javascript">
+			var BASE = '/';
+			var image_x_inverse = '/images/x_inverse.png';
+		</script>
+		<!--[if lte IE 8]><script charset="utf-8" src="/scripts/frontier/d3/r2d3.min.js"></script><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"/><![endif]-->
+		<!--[if gte IE 9]>  <!-->
+			<script src="UniProtKB%20column%20names%20for%20programmatic%20access_fichiers/d3.js"></script>
+		<!-- <![endif]-->
+
+<script type="text/javascript">
+			var isInternal = false;
+		</script><script charset="utf-8" src="UniProtKB%20column%20names%20for%20programmatic%20access_fichiers/js-compr.js2015_12" type="text/javascript"></script><script type="text/javascript">
+				uniprot.namespace = 'help';
+				onRdyFn(function(){
+					if (true) {
+						var shouldShowBasket = true;
+						switch(uniprot.namespace) {
+							case 'uniprot':
+							case 'uniref' :
+							case 'uniparc' :
+								break;
+							default:
+								shouldShowBasket = uniprot.basket.getTotalBasketSize() !== 0;
+							}
+						if(!shouldShowBasket) {
+							$('#basket').hide();
+						}
+					}
+				},'high');
+			</script><script type="text/javascript">uniprot.cookie = new Cookie('uniprot.org');</script><script type="text/javascript">
+			;
+		</script><link href="http://www.uniprot.org/help/opensearch.xml" title="Help" type="application/opensearchdescription+xml" rel="search"></head><body xmlns:up="http://purl.uniprot.org/core/" class="namespace-help" typeof="schema:WebPage"><span id="evidenceToolTip" style="display:none">
+&lt;p&gt;An evidence describes the source of an annotation, e.g. an 
+experiment that has been published in the scientific literature, an 
+orthologous protein, a record from another database, etc.&lt;/p&gt;
+
+
+	&lt;p&gt;&lt;a href="/manual/evidences"&gt;More…&lt;/a&gt;&lt;/p&gt;   
+   </span>
+			<!--[if lte IE 8]>
+				<style type="text/css">
+					#browserwarning {
+						display:block;
+					};
+				</style>
+			<![endif]-->
+	 	<p style="display:none"><a accesskey="2" href="#content">Skip Header</a></p><div id="masthead-container"><div class="masthead" id="local-masthead"><div id="local-title"><h5><a id="logo" accesskey="1" href="http://www.uniprot.org/"><img alt="" src="UniProtKB%20column%20names%20for%20programmatic%20access_fichiers/Logo_medium.png" title="UniProt home"></a></h5></div><div class="namespace-help" id="local-search"><form method="get" action="/help" id="search-form"><div id="namespace-background"><div class="searchBoxIndicator" id="searchBoxIndicator1">&nbsp;</div><div onclick="location.href='/help/text-search';" class="searchBoxIndicator" id="searchBoxIndicator2">&nbsp;</div><div onclick="location.href='/help/advanced_search ';" class="searchBoxIndicator" id="searchBoxIndicator3">&nbsp;</div><script type="text/javascript">
+			onRdyFn(uniprot.searchbar.init);
+			</script><a class="namespace-select" id="select-namespace" onclick="return false;" href=""><span class="caret_white" id="selected-namespace">Help</span></a><ul class="select-namespace-options"><a href="#" class="closeBox" id="closeNamespaceOptions">x</a><li><ul><li class="fixedHeight_namespaces"><h3 class="namespace_uniprot"><a class="namespace-option uniprot" href="#" id="uniprot">UniProtKB</a></h3><p>Protein knowledgebase</p></li><li class="fixedHeight_namespaces"><h3 class="namespace_uniparc"><a class="namespace-option uniparc" href="#" id="uniparc">UniParc</a></h3><p>Sequence archive</p></li><li class="fixedHeight_namespaces"><h3 class="namespace_help"><a class="namespace-option help" href="#" id="help">Help</a></h3><p>Help pages, FAQs, UniProtKB manual, documents, news archive and Biocuration projects.</p></li></ul></li><li><ul><li class="fixedHeight_namespaces"><h3 class="namespace_uniref"><a class="namespace-option uniref" href="#" id="uniref">UniRef</a></h3><p>Sequence clusters</p></li><li class="fixedHeight_namespaces"><h3 class="namespace_proteomes"><a class="namespace-option proteomes" href="#" id="proteomes">Proteomes</a></h3><p>Protein sets from fully sequenced genomes</p></li><li class="fixedHeight_namespaces"><h3 class="namespace_unirule">Annotation systems</h3><p class="supportingLeadingText">Systems used to automatically annotate proteins with high accuracy:</p><ul class="supportingDataOptions"><li><a class="namespace-option supporting" href="#" id="unirule">UniRule (Manually curated rules)</a></li><li><a class="namespace-option supporting" href="#" id="saas">SAAS (System generated rules)</a></li></ul></li></ul></li><li><ul><li class="fixedHeight_namespaces"><h3 class="supporting"><span href="#">Supporting data</span></h3><p class="supportingLeadingText">Select one of the options below to target your search:</p><ul class="supportingDataOptions"><li><a class="namespace-option supporting" href="#" id="citations">Literature citations</a></li><li><a class="namespace-option supporting" href="#" id="taxonomy">Taxonomy</a></li><li><a class="namespace-option supporting" href="#" id="keywords">Keywords</a></li><li><a class="namespace-option supporting" href="#" id="locations">Subcellular locations</a></li><li><a class="namespace-option supporting" href="#" id="database">Cross-referenced databases</a></li><li><a class="namespace-option supporting" href="#" id="diseases">Human diseases</a></li></ul></li></ul></li></ul><input value="" id="topQuery" type="hidden"><input autocomplete="off" class="ui-autocomplete-input" id="query" accesskey="4" name="query" type="search"><span class="ui-helper-hidden-accessible" aria-live="polite" role="status"></span><a class="caret_grey" href="#" id="advanced-search-toggle">Advanced</a><input value="score" name="sort" type="hidden"><a id="search-button" title="Search" data-icon="1" class="icon icon-functional button" onclick="return false" href="">Search</a><script type="text/javascript">
+			onRdyFn(function() {
+				nameSpaceSelector();
+				uniprot.advSearchUI.template(uniprot.namespace);
+			});
+			</script><div class="advSearch" id="query-builder-container"><div style="padding-top:1%" class="advSearchHeader"><a href="#" class="closeBox" id="closeAdvanceSearch">x</a>
+					Searching in <span id="namespaceInAdv">Help</span></div><div style="margin-top:2%" class="filterList" id="filterList"></div><div class="advButtons"><a data-icon="1" href="#" class="icon icon-functional button" id="advSearchButton"></a></div></div></div></form></div><div id="nav"><ul id="local-nav"><li class="mobileHomeLink"><a href="http://www.uniprot.org/">Home</a></li><li class="first"><a class="tooltipped" title="" onclick="return uniprot.blast.checkSelectionsAndSubmit();" href="http://www.uniprot.org/blast">BLAST</a></li><li><a class="tooltipped" title="" onclick="return uniprot.align.checkSelectionsAndSubmit();" accesskey="9" href="http://www.uniprot.org/align">Align</a></li><li class="last"><a class="tooltipped" title="" rel="help" onclick="return (new upload()).uploadLinkHandler();" href="http://www.uniprot.org/uploadlists" id="upload-lists-nav">Retrieve/ID mapping</a></li><li class="functional last"><a accesskey="9" href="http://www.uniprot.org/contact" id="contact">Contact</a></li><li class="functional"><a rel="help" href="http://www.uniprot.org/help/" id="help">Help</a></li></ul></div></div></div><div class="warn" id="browserwarning">You are using a version of browser that may not display all the features of this website. Please consider upgrading <a href="http://www.uniprot.org/help/browser_support">your browser</a>.</div><main class="help" property="schema:about" resource="" typeof="" id="content"><section id="page-header"><div id="top-right-actions"><div style="display: none;" id="basket"><a href="#" data-icon="b" class="closed basket-empty icon icon-static caret_white button" id="basket-list">Basket <span id="basket-count">0</span></a></div><div style="z-index: 3;" id="basket-contents"><div id="closeBasket"><span class="basketText">(max 400 entries)</span><a class="closeBox" href="#">x</a></div><div id="emptyBasketContent"><h3>Your basket is currently empty.</h3><p>Select item(s) and click on "Add to basket" to create your own collection here<br> (400 entries max)<br></p><img src="UniProtKB%20column%20names%20for%20programmatic%20access_fichiers/basket_help.png"></div><div style="display:none" id="loadingBasketContent"><img src="UniProtKB%20column%20names%20for%20programmatic%20access_fichiers/progress128.gif" id="loading_basket"></div><div id="filledBasketContents"><ul class="tabs"><li><a class="uniprot tab">UniProtKB (<span class="uniprot-basket-count">0</span>)</a></li><li><a class="uniref tab">UniRef (<span class="uniref-basket-count">0</span>)</a></li><li><a class="uniparc tab">UniParc (<span class="uniparc-basket-count">0</span>)</a></li></ul><div class="tabsContent" id="basket-uniprot"></div><div class="tabsContent" id="basket-uniref"></div><div class="tabsContent" id="basket-uniparc"></div></div><div id="basket-actions"><ul class="action-buttons-grouped"><li><a title="Select two or more entries and click here to align them" data-icon="i" class="button icon icon-functional align disabled" href="#" id="basket-align-button">Align</a></li><li><a data-icon="t" title="Select an entry and click here to run a BLAST search on it" class="button icon-functional icon blast disabled" href="#" id="basket-blast-button">BLAST</a></li><li><a title="Map ids to other databases" class="button icon-functional disabled" id="basket-map-button">Map Ids</a></li><li><a data-icon="=" title="Download results" class="button icon icon-functional download disabled" href="#" id="basket-download-button">Download</a></li><li style="float: right;"><a title="Full View" class="button fullView disabled" id="basket-view-button">Full View</a></li><li style="float: right"><a title="Clear basket" class="button clear disabled" href="#">Clear</a></li></ul></div></div><form action="/align/" method="post" id="basket-alignForm"><input value="no" name="landingPage" type="hidden"><input value="clustalo" name="program" type="hidden"><input value="yes" name="redirect" type="hidden"><input value="" name="alignQuery" id="basket-alignQuery" type="hidden"></form><form action="/blast/" method="post" id="basket-blastForm"><input value="yes" name="redirect" type="hidden"><input value="no" name="landingPage" type="hidden"><input value="uniprotkb" name="dataset" type="hidden"><input value="10" name="threshold" type="hidden"><input value="" name="matrix" type="hidden"><input value="false" name="filter" type="hidden"><input value="true" name="gapped" type="hidden"><input value="250" name="numal" type="hidden"><input value="" id="basket-blastQuery" name="blastQuery" type="hidden"></form><form action="" method="post" id="basket-downloadForm"><input value="" name="query" type="hidden"></form></div></section> <div class="helpPages"><h3 class="noline">UniProtKB column names for programmatic access</h3><p id="date">Last modified June 18, 2015</p>
+		
+      <div>
+<p>This documents lists the column names for programmatic access to tab-separated or Excel downloads of UniProtKB search results.</p>
+
+
+	<p>See also:<br><a href="http://www.uniprot.org/help/programmatic_access">How can I access resources on this web site programmatically?</a><br><a href="http://www.uniprot.org/help/customize">Customize display options</a><br><a href="http://insideuniprot.blogspot.co.uk/2015_03_01_archive.html">Customise and share your search results</a></p>
+
+
+	<h3>Names &amp; Taxonomy</h3>
+
+
+	<table>
+		<tbody><tr>
+			<th>Column names as displayed on website </th>
+			<th>Column names as displayed in <span class="caps">URL</span> </th>
+		</tr>
+		<tr>
+			<td>Entry name</td>
+			<td>entry name</td>
+		</tr>
+		<tr>
+			<td>Gene names</td>
+			<td>genes</td>
+		</tr>
+		<tr>
+			<td>Gene names (primary)</td>
+			<td>genes(PREFERRED)</td>
+		</tr>
+		<tr>
+			<td>Gene names (synonym)</td>
+			<td>genes(ALTERNATIVE)</td>
+		</tr>
+		<tr>
+			<td>Gene names (ordered locus)</td>
+			<td>genes(OLN)</td>
+		</tr>
+		<tr>
+			<td>Gene names (ORF)</td>
+			<td>genes(ORF)</td>
+		</tr>
+		<tr>
+			<td>Organism</td>
+			<td>organism</td>
+		</tr>
+		<tr>
+			<td>Organism ID</td>
+			<td>organism-id</td>
+		</tr>
+		<tr>
+			<td>Protein names</td>
+			<td>protein names</td>
+		</tr>
+		<tr>
+			<td>Proteomes</td>
+			<td>proteome</td>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage</td>
+			<td>lineage(ALL)</td>
+		</tr>
+		<tr>
+			<td>Virus hosts</td>
+			<td>virus hosts</td>
+		</tr>
+	</tbody></table>
+
+
+
+
+	<h3>Sequences</h3>
+
+
+	<table>
+		<tbody><tr>
+			<th>Column names as displayed on website</th>
+			<th>Column names as displayed in <span class="caps">URL</span></th>
+		</tr>
+		<tr>
+			<td>Fragment</td>
+			<td>fragment</td>
+		</tr>
+		<tr>
+			<td>Gene encoded by</td>
+			<td>encodedon</td>
+		</tr>
+		<tr>
+			<td>Alternative products</td>
+			<td>comment(ALTERNATIVE <span class="caps">PRODUCTS</span>)</td>
+		</tr>
+		<tr>
+			<td>Erroneous gene model prediction</td>
+			<td>comment(ERRONEOUS <span class="caps">GENE MODEL PREDICTION</span>)</td>
+		</tr>
+		<tr>
+			<td>Erroneous initiation</td>
+			<td>comment(ERRONEOUS <span class="caps">INITIATION</span>)</td>
+		</tr>
+		<tr>
+			<td>Erroneous termination</td>
+			<td>comment(ERRONEOUS <span class="caps">TERMINATION</span>)</td>
+		</tr>
+		<tr>
+			<td>Erroneous translation</td>
+			<td>comment(ERRONEOUS <span class="caps">TRANSLATION</span>)</td>
+		</tr>
+		<tr>
+			<td>Frameshift</td>
+			<td>comment(FRAMESHIFT)</td>
+		</tr>
+		<tr>
+			<td>Mass spectrometry</td>
+			<td>comment(MASS <span class="caps">SPECTROMETRY</span>)</td>
+		</tr>
+		<tr>
+			<td>Polymorphism</td>
+			<td>comment(POLYMORPHISM)</td>
+		</tr>
+		<tr>
+			<td><span class="caps">RNA</span> editing</td>
+			<td>comment(RNA <span class="caps">EDITING</span>)</td>
+		</tr>
+		<tr>
+			<td>Sequence caution</td>
+			<td>comment(SEQUENCE <span class="caps">CAUTION</span>)</td>
+		</tr>
+		<tr>
+			<td>Length</td>
+			<td>length</td>
+		</tr>
+		<tr>
+			<td>Mass</td>
+			<td>mass</td>
+		</tr>
+		<tr>
+			<td>Sequence</td>
+			<td>sequence</td>
+		</tr>
+		<tr>
+			<td>Alternative sequence</td>
+			<td>feature(ALTERNATIVE <span class="caps">SEQUENCE</span>)</td>
+		</tr>
+		<tr>
+			<td>Natural variant</td>
+			<td>feature(NATURAL <span class="caps">VARIANT</span>)</td>
+		</tr>
+		<tr>
+			<td>Non-adjacent residues</td>
+			<td>feature(NON <span class="caps">ADJACENT RESIDUES</span>)</td>
+		</tr>
+		<tr>
+			<td>Non-standard residue</td>
+			<td>feature(NON <span class="caps">STANDARD RESIDUE</span>)</td>
+		</tr>
+		<tr>
+			<td>Non-terminal residue</td>
+			<td>feature(NON <span class="caps">TERMINAL RESIDUE</span>)</td>
+		</tr>
+		<tr>
+			<td>Sequence conflict</td>
+			<td>feature(SEQUENCE <span class="caps">CONFLICT</span>)</td>
+		</tr>
+		<tr>
+			<td>Sequence uncertainty</td>
+			<td>feature(SEQUENCE <span class="caps">UNCERTAINTY</span>)</td>
+		</tr>
+		<tr>
+			<td>Sequence version</td>
+			<td>version(sequence)</td>
+		</tr>
+	</tbody></table>
+
+
+
+
+	<h3>Function</h3>
+
+
+	<table>
+		<tbody><tr>
+			<th>Column names as displayed on website</th>
+			<th>Column names as displayed in <span class="caps">URL</span></th>
+		</tr>
+		<tr>
+			<td>EC number</td>
+			<td>ec</td>
+		</tr>
+		<tr>
+			<td>Absorption</td>
+			<td>comment(ABSORPTION)</td>
+		</tr>
+		<tr>
+			<td>Catalytic activity</td>
+			<td>comment(CATALYTIC <span class="caps">ACTIVITY</span>)</td>
+		</tr>
+		<tr>
+			<td>Cofactor</td>
+			<td>comment(COFACTOR)</td>
+		</tr>
+		<tr>
+			<td>Enzyme regulation</td>
+			<td>comment(ENZYME <span class="caps">REGULATION</span>)</td>
+		</tr>
+		<tr>
+			<td>Function[CC]i</td>
+			<td>comment(FUNCTION)</td>
+		</tr>
+		<tr>
+			<td>Kinetics</td>
+			<td>comment(KINETICS)</td>
+		</tr>
+		<tr>
+			<td>Pathway</td>
+			<td>comment(PATHWAY)</td>
+		</tr>
+		<tr>
+			<td>Redox potential</td>
+			<td>comment(REDOX <span class="caps">POTENTIAL</span>)</td>
+		</tr>
+		<tr>
+			<td>Temperature dependence</td>
+			<td>comment(TEMPERATURE <span class="caps">DEPENDENCE</span>)</td>
+		</tr>
+		<tr>
+			<td>pH dependence</td>
+			<td>comment(PH <span class="caps">DEPENDENCE</span>)</td>
+		</tr>
+		<tr>
+			<td>Active site</td>
+			<td>feature(ACTIVE <span class="caps">SITE</span>)</td>
+		</tr>
+		<tr>
+			<td>Binding site</td>
+			<td>feature(BINDING <span class="caps">SITE</span>)</td>
+		</tr>
+		<tr>
+			<td><span class="caps">DNA</span> binding</td>
+			<td>feature(DNA <span class="caps">BINDING</span>)</td>
+		</tr>
+		<tr>
+			<td>Metal binding</td>
+			<td>feature(METAL <span class="caps">BINDING</span>)</td>
+		</tr>
+		<tr>
+			<td>Nucleotide binding</td>
+			<td>feature(NP <span class="caps">BIND</span>)</td>
+		</tr>
+		<tr>
+			<td>Site</td>
+			<td>feature(SITE)</td>
+		</tr>
+	</tbody></table>
+
+
+
+
+	<h3>Miscellaneous</h3>
+
+
+	<table>
+		<tbody><tr>
+			<th>Column names as displayed on website</th>
+			<th>Column names as displayed in <span class="caps">URL</span></th>
+		</tr>
+		<tr>
+			<td>Annotation score</td>
+			<td>annotation score</td>
+		</tr>
+		<tr>
+			<td>Features</td>
+			<td>features</td>
+		</tr>
+		<tr>
+			<td>Caution</td>
+			<td>comment(CAUTION)</td>
+		</tr>
+		<tr>
+			<td>Miscellaneous[CC]</td>
+			<td>comment(GENERAL)</td>
+		</tr>
+		<tr>
+			<td>Keywords</td>
+			<td>keywords</td>
+		</tr>
+		<tr>
+			<td>Matched text</td>
+			<td>context</td>
+		</tr>
+		<tr>
+			<td>Protein existence</td>
+			<td>existence</td>
+		</tr>
+		<tr>
+			<td>Tools</td>
+			<td>tools</td>
+		</tr>
+		<tr>
+			<td>Reviewed</td>
+			<td>reviewed</td>
+		</tr>
+	</tbody></table>
+
+
+
+
+	<h3>Interaction</h3>
+
+
+	<table>
+		<tbody><tr>
+			<th>Column names as displayed on website</th>
+			<th>Column names as displayed in <span class="caps">URL</span></th>
+		</tr>
+		<tr>
+			<td>Subunit structure[CC]i</td>
+			<td>comment(SUBUNIT)</td>
+		</tr>
+		<tr>
+			<td>Interacts with</td>
+			<td>interactor</td>
+		</tr>
+	</tbody></table>
+
+
+
+
+	<h3>Expression</h3>
+
+
+	<table>
+		<tbody><tr>
+			<th>Column names as displayed on website</th>
+			<th>Column names as displayed in <span class="caps">URL</span></th>
+		</tr>
+		<tr>
+			<td>Developmental stage</td>
+			<td>comment(DEVELOPMENTAL <span class="caps">STAGE</span>)</td>
+		</tr>
+		<tr>
+			<td>Induction</td>
+			<td>comment(INDUCTION)</td>
+		</tr>
+		<tr>
+			<td>Tissue specificity</td>
+			<td>comment(TISSUE <span class="caps">SPECIFICITY</span>)</td>
+		</tr>
+	</tbody></table>
+
+
+
+
+	<h3>Gene Ontology (GO)</h3>
+
+
+	<table>
+		<tbody><tr>
+			<th>Column names as displayed on website</th>
+			<th>Column names as displayed in <span class="caps">URL</span></th>
+		</tr>
+		<tr>
+			<td>Gene ontology (GO)</td>
+			<td>go</td>
+		</tr>
+		<tr>
+			<td>Gene ontology (biological process)</td>
+			<td>go(biological process)</td>
+		</tr>
+		<tr>
+			<td>Gene ontology (molecular function)</td>
+			<td>go(molecular function)</td>
+		</tr>
+		<tr>
+			<td>Gene ontology (cellular component)</td>
+			<td>go(cellular component)</td>
+		</tr>
+		<tr>
+			<td>Gene ontology IDs</td>
+			<td>go-id</td>
+		</tr>
+	</tbody></table>
+
+
+
+
+	<h3>Pathology &amp; Biotech</h3>
+
+
+	<table>
+		<tbody><tr>
+			<th>Column names as displayed on website</th>
+			<th>Column names as displayed in <span class="caps">URL</span></th>
+		</tr>
+		<tr>
+			<td>Allergenic properties</td>
+			<td>comment(ALLERGEN)</td>
+		</tr>
+		<tr>
+			<td>Biotechnological use</td>
+			<td>comment(BIOTECHNOLOGY)</td>
+		</tr>
+		<tr>
+			<td>Disruption phenotype</td>
+			<td>comment(DISRUPTION <span class="caps">PHENOTYPE</span>)</td>
+		</tr>
+		<tr>
+			<td>Involvement in disease</td>
+			<td>comment(DISEASE)</td>
+		</tr>
+		<tr>
+			<td>Pharmaceutical use</td>
+			<td>comment(PHARMACEUTICAL)</td>
+		</tr>
+		<tr>
+			<td>Toxic dose</td>
+			<td>comment(TOXIC <span class="caps">DOSE</span>)</td>
+		</tr>
+	</tbody></table>
+
+
+
+
+	<h3>Subcellular location</h3>
+
+
+	<table>
+		<tbody><tr>
+			<th>Column names as displayed on website</th>
+			<th>Column names as displayed in <span class="caps">URL</span></th>
+		</tr>
+		<tr>
+			<td>Subcellular location[CC]i</td>
+			<td>comment(SUBCELLULAR <span class="caps">LOCATION</span>)</td>
+		</tr>
+		<tr>
+			<td>Intramembrane</td>
+			<td>feature(INTRAMEMBRANE)</td>
+		</tr>
+		<tr>
+			<td>Topological domain</td>
+			<td>feature(TOPOLOGICAL <span class="caps">DOMAIN</span>)</td>
+		</tr>
+		<tr>
+			<td>Transmembrane</td>
+			<td>feature(TRANSMEMBRANE)</td>
+		</tr>
+	</tbody></table>
+
+
+
+
+	<h3><span class="caps">PTM</span> / Processsing</h3>
+
+
+	<table>
+		<tbody><tr>
+			<th>Column names as displayed on website</th>
+			<th>Column names as displayed in <span class="caps">URL</span></th>
+		</tr>
+		<tr>
+			<td>Post-translational modification</td>
+			<td>comment(PTM)</td>
+		</tr>
+		<tr>
+			<td>Chain</td>
+			<td>feature(CHAIN)</td>
+		</tr>
+		<tr>
+			<td>Cross-link</td>
+			<td>feature(CROSS <span class="caps">LINK</span>)</td>
+		</tr>
+		<tr>
+			<td>Disulfide bond</td>
+			<td>feature(DISULFIDE <span class="caps">BOND</span>)</td>
+		</tr>
+		<tr>
+			<td>Glycosylation</td>
+			<td>feature(GLYCOSYLATION)</td>
+		</tr>
+		<tr>
+			<td>Initiator methionine</td>
+			<td>feature(INITIATOR <span class="caps">METHIONINE</span>)</td>
+		</tr>
+		<tr>
+			<td>Lipidation</td>
+			<td>feature(LIPIDATION)</td>
+		</tr>
+		<tr>
+			<td>Modified residue</td>
+			<td>feature(MODIFIED <span class="caps">RESIDUE</span>)</td>
+		</tr>
+		<tr>
+			<td>Peptide</td>
+			<td>feature(PEPTIDE)</td>
+		</tr>
+		<tr>
+			<td>Propeptide</td>
+			<td>feature(PROPEPTIDE)</td>
+		</tr>
+		<tr>
+			<td>Signal peptide</td>
+			<td>feature(SIGNAL)</td>
+		</tr>
+		<tr>
+			<td>Transit peptide</td>
+			<td>feature(TRANSIT)</td>
+		</tr>
+	</tbody></table>
+
+
+
+
+	<h3>Structure</h3>
+
+
+	<table>
+		<tbody><tr>
+			<th>Column names as displayed on website</th>
+			<th>Column names as displayed in <span class="caps">URL</span></th>
+		</tr>
+		<tr>
+			<td>3D</td>
+			<td>3d</td>
+		</tr>
+		<tr>
+			<td>Beta strand</td>
+			<td>feature(BETA <span class="caps">STRAND</span>)</td>
+		</tr>
+		<tr>
+			<td>Helix</td>
+			<td>feature(HELIX)</td>
+		</tr>
+		<tr>
+			<td>Turn</td>
+			<td>feature(TURN)</td>
+		</tr>
+	</tbody></table>
+
+
+
+
+	<h3>Publications</h3>
+
+
+	<table>
+		<tbody><tr>
+			<th>Column names as displayed on website</th>
+			<th>Column names as displayed in <span class="caps">URL</span></th>
+		</tr>
+		<tr>
+			<td>Mapped PubMed ID</td>
+			<td>citationmapping</td>
+		</tr>
+		<tr>
+			<td>PubMed ID</td>
+			<td>citation</td>
+		</tr>
+	</tbody></table>
+
+
+
+
+	<h3>Date of</h3>
+
+
+	<table>
+		<tbody><tr>
+			<th>Column names as displayed on website</th>
+			<th>Column names as displayed in <span class="caps">URL</span></th>
+		</tr>
+		<tr>
+			<td>Date of creation</td>
+			<td>created</td>
+		</tr>
+		<tr>
+			<td>Date of last modification</td>
+			<td>last-modified</td>
+		</tr>
+		<tr>
+			<td>Date of last sequence modification</td>
+			<td>sequence-modified</td>
+		</tr>
+		<tr>
+			<td>Entry version</td>
+			<td>version(entry)</td>
+		</tr>
+	</tbody></table>
+
+
+
+
+	<h3>Family &amp; Domains</h3>
+
+
+	<table>
+		<tbody><tr>
+			<th>Column names as displayed on website</th>
+			<th>Column names as displayed in <span class="caps">URL</span></th>
+		</tr>
+		<tr>
+			<td>Domain[CC]</td>
+			<td>comment(DOMAIN)</td>
+		</tr>
+		<tr>
+			<td>Sequence similarities</td>
+			<td>comment(SIMILARITY)</td>
+		</tr>
+		<tr>
+			<td>Protein families</td>
+			<td>families</td>
+		</tr>
+		<tr>
+			<td>Coiled coil</td>
+			<td>feature(COILED <span class="caps">COIL</span>)</td>
+		</tr>
+		<tr>
+			<td>Compositional bias</td>
+			<td>feature(COMPOSITIONAL <span class="caps">BIAS</span>)</td>
+		</tr>
+		<tr>
+			<td>Domain[FT]</td>
+			<td>feature(DOMAIN <span class="caps">EXTENT</span>)</td>
+		</tr>
+		<tr>
+			<td>Motif</td>
+			<td>feature(MOTIF)</td>
+		</tr>
+		<tr>
+			<td>Region</td>
+			<td>feature(REGION)</td>
+		</tr>
+		<tr>
+			<td>Repeat</td>
+			<td>feature(REPEAT)</td>
+		</tr>
+		<tr>
+			<td>Zinc finger</td>
+			<td>feature(ZINC <span class="caps">FINGER</span>)</td>
+		</tr>
+	</tbody></table>
+
+
+
+
+	<h3>Taxonomic lineage</h3>
+
+
+	<table>
+		<tbody><tr>
+			<th>Column names as displayed on website</th>
+			<th>Column names as displayed in <span class="caps">URL</span></th>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage (all)</td>
+			<td>lineage(all)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage (SUPERKINGDOM)</td>
+			<td>lineage(SUPERKINGDOM)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage (KINGDOM)</td>
+			<td>lineage(KINGDOM)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage (SUBKINGDOM)</td>
+			<td>lineage(SUBKINGDOM)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage (SUPERPHYLUM)</td>
+			<td>lineage(SUPERPHYLUM)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage (PHYLUM)</td>
+			<td>lineage(PHYLUM)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage (SUBPHYLUM)</td>
+			<td>lineage(SUBPHYLUM)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage (SUPERCLASS)</td>
+			<td>lineage(SUPERCLASS)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage (CLASS)</td>
+			<td>lineage(CLASS)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage (SUBCLASS)</td>
+			<td>lineage(SUBCLASS)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage (INFRACLASS)</td>
+			<td>lineage(INFRACLASS)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage (SUPERORDER)</td>
+			<td>lineage(SUPERORDER)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage (ORDER)</td>
+			<td>lineage(ORDER)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage (SUBORDER)</td>
+			<td>lineage(SUBORDER)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage (INFRAORDER)</td>
+			<td>lineage(INFRAORDER)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage (PARVORDER)</td>
+			<td>lineage(PARVORDER)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage (SUPERFAMILY)</td>
+			<td>lineage(SUPERFAMILY)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage (FAMILY)</td>
+			<td>lineage(FAMILY)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage (SUBFAMILY)</td>
+			<td>lineage(SUBFAMILY)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage (TRIBE)</td>
+			<td>lineage(TRIBE)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage (SUBTRIBE)</td>
+			<td>lineage(SUBTRIBE)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage (GENUS)</td>
+			<td>lineage(GENUS)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage (SUBGENUS)</td>
+			<td>lineage(SUBGENUS)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage (SPECIES <span class="caps">GROUP</span>)</td>
+			<td>lineage(SPECIES <span class="caps">GROUP</span>)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage (SPECIES <span class="caps">SUBGROUP</span>)</td>
+			<td>lineage(SPECIES <span class="caps">SUBGROUP</span>)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage (SPECIES)</td>
+			<td>lineage(SPECIES)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage (SUBSPECIES)</td>
+			<td>lineage(SUBSPECIES)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage (VARIETAS)</td>
+			<td>lineage(VARIETAS)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic lineage (FORMA)</td>
+			<td>lineage(FORMA)</td>
+		</tr>
+	</tbody></table>
+
+
+
+
+	<h3>Taxonomic identifier</h3>
+
+
+	<table>
+		<tbody><tr>
+			<th>Column names as displayed on website</th>
+			<th>Column names as displayed in <span class="caps">URL</span></th>
+		</tr>
+		<tr>
+			<td>Taxonomic identifier (all)</td>
+			<td>lineage-id(all)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic identifier (SUPERKINGDOM)</td>
+			<td>lineage-id(SUPERKINGDOM)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic identifier (KINGDOM)</td>
+			<td>lineage-id(KINGDOM)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic identifier (SUBKINGDOM)</td>
+			<td>lineage-id(SUBKINGDOM)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic identifier (SUPERPHYLUM)</td>
+			<td>lineage-id(SUPERPHYLUM)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic identifier (PHYLUM)</td>
+			<td>lineage-id(PHYLUM)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic identifier (SUBPHYLUM)</td>
+			<td>lineage-id(SUBPHYLUM)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic identifier (SUPERCLASS)</td>
+			<td>lineage-id(SUPERCLASS)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic identifier (CLASS)</td>
+			<td>lineage-id(CLASS)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic identifier (SUBCLASS)</td>
+			<td>lineage-id(SUBCLASS)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic identifier (INFRACLASS)</td>
+			<td>lineage-id(INFRACLASS)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic identifier (SUPERORDER)</td>
+			<td>lineage-id(SUPERORDER)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic identifier (ORDER)</td>
+			<td>lineage-id(ORDER)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic identifier (SUBORDER)</td>
+			<td>lineage-id(SUBORDER)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic identifier (INFRAORDER)</td>
+			<td>lineage-id(INFRAORDER)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic identifier (PARVORDER)</td>
+			<td>lineage-id(PARVORDER)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic identifier (SUPERFAMILY)</td>
+			<td>lineage-id(SUPERFAMILY)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic identifier (FAMILY)</td>
+			<td>lineage-id(FAMILY)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic identifier (SUBFAMILY)</td>
+			<td>lineage-id(SUBFAMILY)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic identifier (TRIBE)</td>
+			<td>lineage-id(TRIBE)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic identifier (SUBTRIBE)</td>
+			<td>lineage-id(SUBTRIBE)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic identifier (GENUS)</td>
+			<td>lineage-id(GENUS)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic identifier (SUBGENUS)</td>
+			<td>lineage-id(SUBGENUS)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic identifier (SPECIES <span class="caps">GROUP</span>)</td>
+			<td>lineage-id(SPECIES <span class="caps">GROUP</span>)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic identifier (SPECIES <span class="caps">SUBGROUP</span>)</td>
+			<td>lineage-id(SPECIES <span class="caps">SUBGROUP</span>)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic identifier (SPECIES)</td>
+			<td>lineage-id(SPECIES)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic identifier (SUBSPECIES)</td>
+			<td>lineage-id(SUBSPECIES)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic identifier (VARIETAS)</td>
+			<td>lineage-id(VARIETAS)</td>
+		</tr>
+		<tr>
+			<td>Taxonomic identifier (FORMA)</td>
+			<td>lineage-id(FORMA)</td>
+		</tr>
+	</tbody></table>
+
+
+
+
+	<h3>Cross-references</h3>
+
+
+	<table>
+		<tbody><tr>
+			<th>Column names as displayed on website</th>
+			<th>Column names as displayed in <span class="caps">URL</span></th>
+		</tr>
+		<tr>
+			<td>db_abbrev</td>
+			<td>database(db_abbrev)</td>
+		</tr>
+		<tr>
+			<td>e.g. <span class="caps">EMBL</span></td>
+			<td>database(EMBL)</td>
+		</tr>
+	</tbody></table>
+
+
+
+
+	<p>where <code>db_abbrev</code> can be found in the “Abbrev:” field of the document <a href="http://www.uniprot.org/docs/dbxref">Databases cross-referenced in UniProtKB</a>.</p>      </div>
+    
+
+	</div><span id="advanced-Blast"><span class="toolTipContent" style="display:none">&lt;p&gt;This
+ will take you to the Blast page where you can edit options 
+&lt;/p&gt;&lt;p&gt;&lt;a 
+href="/help/sequence-searches"&gt;More..&lt;/a&gt;&lt;/p&gt;</span></span></main><footer id="page-footer"><section class="html5-section"><h5>Tools</h5><ul><li><a href="http://www.uniprot.org/blast">BLAST</a></li><li><a href="http://www.uniprot.org/align">Align</a></li><li><a href="http://www.uniprot.org/uploadlists">Retrieve/ID mapping</a></li></ul></section><section class="html5-section"><h5>Core data</h5><ul><li><a href="http://www.uniprot.org/uniprot">Protein knowledgebase (UniProtKB)</a></li><li><a href="http://www.uniprot.org/uniref">Sequence clusters (UniRef)</a></li><li><a href="http://www.uniprot.org/uniparc">Sequence archive (UniParc)</a></li><li><a href="http://www.uniprot.org/proteomes">Proteomes</a></li></ul></section><section class="html5-section"><h5>Supporting data</h5><ul><li><a href="http://www.uniprot.org/citations">Literature citations</a></li><li><a href="http://www.uniprot.org/taxonomy">Taxonomy</a></li><li><a href="http://www.uniprot.org/keywords">Keywords</a></li><li><a href="http://www.uniprot.org/locations">Subcellular locations</a></li><li><a href="http://www.uniprot.org/database">Cross-referenced databases</a></li><li><a href="http://www.uniprot.org/diseases">Diseases</a></li></ul></section><section class="html5-section"><h5>Information</h5><ul><li><a href="http://www.uniprot.org/help/about">About UniProt</a></li><li><a href="http://www.uniprot.org/help">Help</a></li><li><a href="http://www.uniprot.org/help/?fil=section:faq">FAQ</a></li><li><a href="http://www.uniprot.org/help/?fil=section:manual">UniProtKB manual</a></li><li><a href="http://www.uniprot.org/help/technical">Technical corner</a></li><li><a href="http://www.uniprot.org/help/?query=*&amp;fil=section:biocuration">Expert biocuration</a></li></ul></section><section class="html5-footer small"><div class="uniprotlogo"><img src="UniProtKB%20column%20names%20for%20programmatic%20access_fichiers/uniprot_logo_trans.png"></div>
+			© 2002 –
+			<span property="schema:copyrightYear">2016</span>
+			<a accesskey="9" href="http://www.uniprot.org/help/about">UniProt Consortium</a> | <a href="http://www.uniprot.org/help/license">License &amp; Disclaimer</a><div resource="/help/about#UniProt" id="logos" typeof="schema:NGO" property="schema:creator"><span resource="/help/about#EBI" typeof="schema:Organisation" property="schema:member"><span class="hidden" property="schema:name">European Bioinformatics Institute</span><a href="http://www.ebi.ac.uk/" class="ebi" property="schema:url"></a></span><span resource="/help/about#PIR" typeof="schema:Organisation" property="schema:member"><span class="hidden" property="schema:name">Protein Information Resource</span><a href="http://pir.georgetown.edu/" class="pir" property="schema:url"></a></span><span resource="/help/about#SIB" typeof="schema:Organisation" property="schema:member"><span class="hidden" property="schema:name">SIB Swiss Institute of Bioinformatics</span><a href="http://www.isb-sib.ch/" class="sib" property="schema:url"></a></span></div></section></footer><script type="text/javascript">
+				var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+				document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+			</script><script type="text/javascript">
+						_gaq.push(
+								  ['_setAccount',"UA-6228219-1"],
+								  ['_trackPageview']
+								 );
+					</script><ul aria-disabled="true" style="z-index: 1; display: none;" tabindex="0" id="ui-id-1" class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all ui-autocomplete-disabled ui-state-disabled"></ul></body></html>
