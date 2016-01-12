@@ -3,17 +3,17 @@ from Bio import SeqIO
      
 def gen_files(proteomes):
 	#Creation des fichiers correspondants aux tables
-	proteine = open('proteine.csv', 'w')
+	proteine = open('../tables/proteine.csv', 'w')
 	proteine.write('id; id_interaction; id_seq; id_fonction; nom\n')
-	interaction = open('interaction.csv', 'w')
+	interaction = open('../tables/interaction.csv', 'w')
 	interaction.write('id_interact; sub-unit\n')
-	sequence = open('sequence.csv', 'w')
+	sequence = open('../tables/sequence.csv', 'w')
 	sequence.write('id_seq; longueur; masse; sequence\n')
-	fonction = open('fonction.csv', 'w')
+	fonction = open('../tables/fonction.csv', 'w')
 	fonction.write('id_fonction; catalytic activity\n')
-	family = open('famille.csv', 'w')
+	family = open('../tables/famille.csv', 'w')
 	family.write('id; similarity\n')
-	taxonomy = open('taxonomie.csv', 'w')
+	taxonomy = open('../tables/taxonomie.csv', 'w')
 	taxonomy.write('nom; nom_du_gene; organisme; existence_proteine\n')
 
 	#Parsage du fichier xml et ecriture dans les fichiers adequats
@@ -45,7 +45,8 @@ def gen_files(proteomes):
 			#Ecriture dans sequence.csv
 			masse = int(record.annotations['sequence_mass'])
 			longueur = int(record.annotations['sequence_length'])
-			seq = str(record.format("fasta"))
+			#seq = str(record.format("fasta"))
+			seq = str(record.seq)
 			sequence.write(str(id_seq) +'; '+ str(longueur) +'; '+ str(masse) +'; '+ seq + '\n')
 
 			#Ecriture dans fonction.csv
