@@ -20,7 +20,7 @@ table_seq.close()
 
 from Bio.Align.Applications import ClustalwCommandline
 
-clustalw_exe = r"C:\Program Files (x86)\Programmes_installes\ClustalW\clustalx"
+clustalw_exe = r"/net/cremi/mlopez001006/Bureau/clustalw2"
 
 clustalw_cline = ClustalwCommandline(clustalw_exe, infile="./../tables/sequences.fasta")
 
