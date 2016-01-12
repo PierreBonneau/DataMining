@@ -1,8 +1,8 @@
-def parser(file):
+def parser(file_):
 	kw = ''
 	cat = ''
 	kw_category = {}
-	for line in keywlist:
+	for line in file_:
 		line = line.rstrip('.\n')
 		if line == '//':
 			continue
@@ -14,12 +14,27 @@ def parser(file):
 			kw_category[kw] = cat
 	return kw_category
 
+def count_kw(dict_, file_):
+	entete = file_.readline()
+	line = file_.readline()
+	cat = {}
+	while line != "":
+		line = line.rstrip("\n")
+		fields = line.split('; ')
+		kw_list = fields[1].split(', ')
+		for kw in kw_list:
+			if dict_[kw] not in cat:
+				cat[dict_[kw]] = 1
+			else:
+				cat[dict_[kw]] = cat[dict_[kw]] + 1
+		line = file_.readline()
+	return cat
 
 if __name__ == '__main__':
-	input_file = "keywlist.txt"
+	input_file = "../keywlist.txt"
 	keywlist = open(input_file, "r")
 	dict_ = parser(keywlist)
-	kw_cat_file = open('kw_cat_file.txt', 'w')
+	kw_cat_file = open('../kw_cat_file.txt', 'w')
 	for key in dict_:
 		line = key + " : " + dict_[key] + "\n"
 		kw_cat_file.write(line)

@@ -1,0 +1,1183 @@
+Mercury : Ligand
+Cadmium resistance : Biological process
+Host cell lysis by virus : Biological process
+Metachromatic leukodystrophy : Disease
+Lead : Ligand
+Cytokinin signaling pathway : Biological process
+Cell division : Biological process
+Pantothenate biosynthesis : Biological process
+Gamma-carboxyglutamic acid : PTM
+Pseudohermaphroditism : Disease
+Oncogene : Disease
+Conjugation : Biological process
+Purine metabolism : Biological process
+Tumor suppressor : Disease
+Host periplasm : Cellular component
+Cysteine biosynthesis : Biological process
+Acetylcholine receptor inhibiting toxin : Molecular function
+Nucleosome core : Cellular component
+Tyrosine-protein kinase : Molecular function
+Exosome : Cellular component
+Covalent protein-DNA linkage : PTM
+Galactitol metabolism : Biological process
+Cytosine metabolism : Biological process
+Citrullination : PTM
+Cytokine : Molecular function
+Viral genome integration : Biological process
+Modulation of host PP1 activity by virus : Biological process
+Cell inner membrane : Cellular component
+Prenylation : PTM
+Acetoin catabolism : Biological process
+Thrombophilia : Disease
+RNA editing : Coding sequence diversity
+Selenocysteine : Coding sequence diversity
+Myosin : Molecular function
+Microtubule : Cellular component
+mRNA transport : Biological process
+Capsule biogenesis/degradation : Biological process
+Chlorosome : Cellular component
+DNA-binding : Ligand
+Biomineralization : Biological process
+Signal recognition particle : Cellular component
+Desmin-related myopathy : Disease
+Glyoxylate bypass : Biological process
+Repressor : Molecular function
+Kinetoplast : Cellular component
+Eye lens protein : Molecular function
+Bacterial flagellum protein export : Biological process
+Flavonoid biosynthesis : Biological process
+Sporulation : Biological process
+GTPase activation : Molecular function
+Hemophilia : Disease
+Dynein : Cellular component
+Chaperone : Molecular function
+Cardiotoxin : Molecular function
+Congenital dyserythropoietic anemia : Disease
+Sialic acid : Ligand
+Serine biosynthesis : Biological process
+Abscisic acid signaling pathway : Biological process
+Ectodermal dysplasia : Disease
+Gangliosidosis : Disease
+Latency-replication switch : Biological process
+Threonine biosynthesis : Biological process
+Gastrulation : Biological process
+Histidine metabolism : Biological process
+Copper : Ligand
+Carnitine biosynthesis : Biological process
+Ethylene signaling pathway : Biological process
+Innate immunity : Biological process
+Bacteriocin immunity : Biological process
+Polysaccharide transport : Biological process
+Heparin-binding : Ligand
+Ribosomal frameshifting : Coding sequence diversity
+Peters anomaly : Disease
+Olfaction : Biological process
+PHA biosynthesis : Biological process
+Bacterial flagellum biogenesis : Biological process
+PQQ : Ligand
+G-protein coupled receptor : Molecular function
+Usher syndrome : Disease
+Bacteriocin biosynthesis : Biological process
+Methanol utilization : Biological process
+Flagellum : Cellular component
+Alginate biosynthesis : Biological process
+Inhibition of host proteasome antigen processing by virus : Biological process
+Serine protease inhibitor : Molecular function
+Pentose shunt : Biological process
+T=13 icosahedral capsid protein : Cellular component
+Biological rhythms : Biological process
+Sushi : Domain
+Gaucher disease : Disease
+Inhibition of host MDA5 by virus : Biological process
+Capsid decoration protein : Cellular component
+Congenital stationary night blindness : Disease
+Peroxisome biogenesis disorder : Disease
+Inhibition of host autophagy by virus : Biological process
+Degradation of host peptidoglycans during virus entry : Biological process
+Vacuole : Cellular component
+Viral attachment to host adhesion receptor : Biological process
+Host synapse : Cellular component
+Cushing syndrome : Disease
+Knottin : Domain
+Autophagy : Biological process
+Sodium : Ligand
+Retinal protein : Molecular function
+Phenylketonuria : Disease
+Nickel : Ligand
+Nitration : PTM
+Hemostasis : Biological process
+Proteasome : Cellular component
+Hemostasis impairing toxin : Molecular function
+DNA replication inhibitor : Molecular function
+Porin : Molecular function
+Host thylakoid : Cellular component
+Antenna complex : Cellular component
+Cystinuria : Disease
+T=25 icosahedral capsid protein : Cellular component
+Hydrogenosome : Cellular component
+Ehlers-Danlos syndrome : Disease
+Hydrolase : Molecular function
+Heterotaxy : Disease
+Joubert syndrome : Disease
+Keratin : Cellular component
+Virus exit from host cell : Biological process
+Atrial septal defect : Disease
+Modulation of host ubiquitin pathway by viral E3 ligase : Biological process
+PHB biosynthesis : Biological process
+Homeobox : Domain
+Viral genome packaging : Biological process
+Host Golgi apparatus : Cellular component
+Steroidogenesis : Biological process
+Redox-active center : Domain
+Osteopetrosis : Disease
+Inhibition of host adaptive immune response by virus : Biological process
+Prion : Molecular function
+Pheromone-binding : Ligand
+Lactation : Biological process
+Pyrrolysine : Coding sequence diversity
+Nucleotide-binding : Ligand
+Glucose metabolism : Biological process
+Cobalamin biosynthesis : Biological process
+Palmoplantar keratoderma : Disease
+Chitin degradation : Biological process
+Metalloprotease inhibitor : Molecular function
+Host lysosome : Cellular component
+Endonuclease : Molecular function
+Hibernation : Biological process
+Viral budding : Biological process
+Sensory transduction : Biological process
+Mitosome : Cellular component
+Differentiation : Biological process
+DNA integration : Biological process
+WD repeat : Domain
+Retinitis pigmentosa : Disease
+Seed storage protein : Molecular function
+Nematocyst : Cellular component
+Lipopolysaccharide biosynthesis : Biological process
+Aicardi-Goutieres syndrome : Disease
+Neurodegeneration : Disease
+T=1 icosahedral capsid protein : Cellular component
+CTQ : PTM
+Systemic lupus erythematosus : Disease
+Complement activation lectin pathway : Biological process
+Steroid metabolism : Biological process
+Viral matrix protein : Cellular component
+Nucleomorph : Cellular component
+G1/S host cell cycle checkpoint dysregulation by virus : Biological process
+Modulation of host dendritic cell activity by virus : Biological process
+Phospholipid degradation : Biological process
+Amidation : PTM
+Immunity : Biological process
+Helical capsid protein : Cellular component
+Intrahepatic cholestasis : Disease
+ER-Golgi transport : Biological process
+Disease mutation : Disease
+T=2 icosahedral capsid protein : Cellular component
+Elongation factor : Molecular function
+Arginine metabolism : Biological process
+Phosphate transport : Biological process
+Host cell outer membrane : Cellular component
+Myogenesis : Biological process
+Viral RNA replication : Biological process
+Glycosome : Cellular component
+Trophozoite : Developmental stage
+Virulence : Biological process
+Fibrinolytic toxin : Molecular function
+Bacteriolytic enzyme : Molecular function
+Surface film : Cellular component
+Cell outer membrane : Cellular component
+Intermediate filament : Cellular component
+Glycogen metabolism : Biological process
+RNA-directed RNA polymerase : Molecular function
+Arsenical resistance : Biological process
+DNA condensation : Biological process
+S-layer : Cellular component
+Lacrimo-auriculo-dento-digital syndrome : Disease
+Neuropathy : Disease
+von Willebrand disease : Disease
+Restriction-modification system evasion by virus : Biological process
+Signal transduction inhibitor : Molecular function
+Host cytoplasmic vesicle : Cellular component
+FMN : Ligand
+Archaeal flagellum biogenesis : Biological process
+Glycerol metabolism : Biological process
+Ryanodine-sensitive calcium-release channel impairing toxin : Molecular function
+Lipid transport : Biological process
+Serotonin biosynthesis : Biological process
+Inhibition of host ISG15 by virus : Biological process
+Inhibition of host tetherin by virus : Biological process
+RNA-binding : Ligand
+Chronic granulomatous disease : Disease
+Congenital adrenal hyperplasia : Disease
+Flavoprotein : Ligand
+Protease : Molecular function
+Hermansky-Pudlak syndrome : Disease
+Neurogenesis : Biological process
+Osteogenesis imperfecta : Disease
+Paired box : Domain
+Epilepsy : Disease
+Host mitochondrion outer membrane : Cellular component
+Oxylipin biosynthesis : Biological process
+Photosystem I : Cellular component
+Cockayne syndrome : Disease
+Keratinization : Biological process
+Rhamnose metabolism : Biological process
+Nickel insertion : Biological process
+Toxin : Molecular function
+Nitrate assimilation : Biological process
+ERV : Technical term
+Aminotransferase : Molecular function
+DNA replication : Biological process
+Hypotrichosis : Disease
+Transposition : Biological process
+Galactose metabolism : Biological process
+IgG-binding protein : Ligand
+Anion exchange : Biological process
+Coated pit : Cellular component
+Ammonia transport : Biological process
+Calvin cycle : Biological process
+Tryptophan catabolism : Biological process
+Lignin degradation : Biological process
+Ion channel : Molecular function
+Sulfate respiration : Biological process
+Primary ciliary dyskinesia : Disease
+DNA synthesis : Biological process
+Dioxygenase : Molecular function
+RNA suppression of termination : Coding sequence diversity
+Late protein : Developmental stage
+Gas vesicle : Cellular component
+Cadmium : Ligand
+Pyrogen : Molecular function
+Translational shunt : Molecular function
+Mutator protein : Molecular function
+Isoleucine biosynthesis : Biological process
+Iodination : PTM
+G-protein coupled receptor impairing toxin : Molecular function
+MELAS syndrome : Disease
+Activation of host autophagy by virus : Biological process
+Aspartyl protease : Molecular function
+Li-Fraumeni syndrome : Disease
+cAMP-binding : Ligand
+Ligand-gated ion channel : Molecular function
+Serine protease homolog : Molecular function
+Kartagener syndrome : Disease
+Degradation of host capsule during virus entry : Biological process
+Mannose-binding : Ligand
+Hemagglutinin : Molecular function
+Methyltransferase : Molecular function
+Dental caries : Disease
+Ubl conjugation pathway : Biological process
+TPR repeat : Domain
+Osteogenesis : Biological process
+Selenium : Ligand
+Neurotransmitter transport : Biological process
+Neuropeptide : Molecular function
+Thioester bond : PTM
+Polyamine biosynthesis : Biological process
+Fanconi anemia : Disease
+Actin-binding : Ligand
+Hemolytic uremic syndrome : Disease
+Endosome : Cellular component
+Formylation : PTM
+Antibiotic : Molecular function
+Pheromone response : Biological process
+Peroxisome biogenesis : Biological process
+Cellulose biosynthesis : Biological process
+Membrane attack complex : Cellular component
+Mercuric resistance : Biological process
+Protein biosynthesis : Biological process
+Alkylphosphonate uptake : Biological process
+Hypogonadotropic hypogonadism : Disease
+Nucleus : Cellular component
+Helicase : Molecular function
+Primary microcephaly : Disease
+Archaeal flagellum : Cellular component
+Bacteriocin : Molecular function
+Starch biosynthesis : Biological process
+Teichoic acid biosynthesis : Biological process
+Photoprotein : Molecular function
+Zymogen : PTM
+Nucleotide biosynthesis : Biological process
+Phosphopantetheine : PTM
+Antibiotic biosynthesis : Biological process
+Inhibition of host poly(A)-binding protein by virus : Biological process
+Nonsense-mediated mRNA decay : Biological process
+Antiviral protein : Molecular function
+Viral envelope protein : Cellular component
+Inhibition of host MAVS by virus : Biological process
+Immunoglobulin V region : Domain
+Methionine biosynthesis : Biological process
+Cell shape : Biological process
+Heme : Ligand
+Waardenburg syndrome : Disease
+Kinase : Molecular function
+Brassinosteroid biosynthesis : Biological process
+Stickler syndrome : Disease
+Pyridoxine biosynthesis : Biological process
+Chromophore : Ligand
+Protein phosphatase : Molecular function
+Phenylpropanoid metabolism : Biological process
+Sodium transport : Biological process
+Hereditary nonpolyposis colorectal cancer : Disease
+Nitrogen fixation : Biological process
+Host microsome : Cellular component
+Branched-chain amino acid catabolism : Biological process
+Microtubular outwards viral transport : Biological process
+G0/G1 host cell cycle checkpoint dysregulation by virus : Biological process
+Transposable element : Technical term
+Viral long flexible tail ejection system : Molecular function
+DNA repair : Biological process
+Inhibition of host TLR pathway by virus : Biological process
+DNA-directed RNA polymerase : Cellular component
+Insecticide resistance : Biological process
+Proline biosynthesis : Biological process
+Prostaglandin biosynthesis : Biological process
+Polymorphism : Coding sequence diversity
+Protein kinase inhibitor : Molecular function
+Fibrinogenolytic toxin : Molecular function
+Fruiting body : Developmental stage
+Endorphin : Molecular function
+CRISPR-cas system evasion by virus : Biological process
+ANK repeat : Domain
+TTQ : PTM
+Glyoxysome : Cellular component
+Viral baseplate protein : Cellular component
+Host nucleus : Cellular component
+Neuronal ceroid lipofuscinosis : Disease
+Chemotaxis : Biological process
+Cuticle : Cellular component
+TPQ : PTM
+Dystonia : Disease
+Obesity : Disease
+RNA-directed DNA polymerase : Molecular function
+Cell adhesion impairing toxin : Molecular function
+Myristate : PTM
+Streptomycin biosynthesis : Biological process
+Wnt signaling pathway : Biological process
+Phagocytosis : Biological process
+Cone-rod dystrophy : Disease
+Viral extrusion : Biological process
+Transferase : Molecular function
+Senior-Loken syndrome : Disease
+Bacterial flagellum : Cellular component
+Blood coagulation cascade inhibiting toxin : Molecular function
+Palmitate : PTM
+Viral attachment to host cell : Biological process
+Branched-chain amino acid biosynthesis : Biological process
+SH2 domain : Domain
+Inhibition of host NF-kappa-B by virus : Biological process
+Zinc-finger : Domain
+Glycation : PTM
+Multifunctional enzyme : Technical term
+Target cell membrane : Cellular component
+Mitochondrion : Cellular component
+Gluconate utilization : Biological process
+Ribonucleoprotein : Molecular function
+Cell junction : Cellular component
+Glutamate biosynthesis : Biological process
+Williams-Beuren syndrome : Disease
+Prothrombin activator : Molecular function
+Calcium transport : Biological process
+Glycogen storage disease : Disease
+Annexin : Domain
+cGMP-binding : Ligand
+Ubiquinone : Ligand
+Transcription : Biological process
+cAMP : Ligand
+Fusion of virus membrane with host outer membrane : Biological process
+Stress response : Biological process
+Inhibition of host pre-mRNA processing by virus : Biological process
+Viral contractile tail ejection system : Molecular function
+Hybridoma : Technical term
+Hypusine : PTM
+Modulation of host immunity by viral IgG Fc receptor-like protein : Biological process
+Lactose biosynthesis : Biological process
+2Fe-2S : Ligand
+Cell adhesion : Biological process
+HDL : Cellular component
+Chloride : Ligand
+Congenital muscular dystrophy : Disease
+Hypusine biosynthesis : Biological process
+Monoclonal antibody : Molecular function
+3Fe-4S : Ligand
+Malaria : Disease
+Herbicide resistance : Biological process
+Rotamase : Molecular function
+Lipid droplet : Cellular component
+Bacterial host gene expression shutoff by virus : Biological process
+Lipid A biosynthesis : Biological process
+Alport syndrome : Disease
+Kelch repeat : Domain
+TonB box : Domain
+Activation of host caspases by virus : Biological process
+Germination : Biological process
+Bacterial host transcription shutoff by virus : Biological process
+Developmental protein : Molecular function
+Genetically modified food : Technical term
+Biotin biosynthesis : Biological process
+Hydrogen peroxide : Biological process
+Decay of host mRNAs by virus : Biological process
+Taxol biosynthesis : Biological process
+Sulfate transport : Biological process
+Fatty acid biosynthesis : Biological process
+Amino-acid transport : Biological process
+Amyloid : Cellular component
+Eukaryotic host gene expression shutoff by virus : Biological process
+MHC II : Cellular component
+Inflammasome : Cellular component
+Histidine biosynthesis : Biological process
+Viral occlusion body : Cellular component
+Eukaryotic host translation shutoff by virus : Biological process
+Degradation of host lipopolysaccharides during virus entry : Biological process
+Asparagine biosynthesis : Biological process
+Early protein : Developmental stage
+Calcium/phospholipid-binding : Ligand
+Chlorophyll catabolism : Biological process
+Pharmaceutical : Technical term
+Oxidoreductase : Molecular function
+Sugar transport : Biological process
+Photosynthesis : Biological process
+Host cell inner membrane : Cellular component
+Virion : Cellular component
+Glycoprotein : PTM
+Digestion : Biological process
+Gap junction : Cellular component
+Leber hereditary optic neuropathy : Disease
+Antioxidant : Molecular function
+Viral penetration into host nucleus : Biological process
+Virion maturation : Biological process
+EGF-like domain : Domain
+T=16 icosahedral capsid protein : Cellular component
+Inhibition of host interferon receptors by virus : Biological process
+Metal-thiolate cluster : Ligand
+Ichthyosis : Disease
+Mucolipidosis : Disease
+Diabetes mellitus : Disease
+T=pseudo3 icosahedral capsid protein : Cellular component
+Folate-binding : Ligand
+SOS mutagenesis : Biological process
+Pair-rule protein : Molecular function
+Viral primary envelope fusion with host outer nuclear membrane : Biological process
+Carboxypeptidase : Molecular function
+Iron-sulfur : Ligand
+Plasmid copy control : Biological process
+Potassium channel : Molecular function
+Host G2/M cell cycle arrest by virus : Biological process
+Glutaricaciduria : Disease
+IFIT mRNA restriction evasion by virus : Biological process
+Folate biosynthesis : Biological process
+Modulation of host NK-cell activity by virus : Biological process
+Host mitochondrion inner membrane : Cellular component
+S-nitrosylation : PTM
+Chondrogenesis : Biological process
+Viral penetration into host cytoplasm via pilus retraction : Biological process
+Lipid degradation : Biological process
+Bile acid catabolism : Biological process
+Leukotriene biosynthesis : Biological process
+AIDS : Disease
+Viral tail fiber protein : Cellular component
+B-cell activation : Biological process
+Crown gall tumor : Disease
+Repeat : Domain
+Inositol biosynthesis : Biological process
+Isomerase : Molecular function
+Alternative splicing : Coding sequence diversity
+Atherosclerosis : Disease
+Pyridine nucleotide biosynthesis : Biological process
+Quorum sensing : Biological process
+Transmembrane helix : Domain
+Host cytoskeleton : Cellular component
+Lipoprotein : PTM
+Methanogenesis : Biological process
+Mast cell degranulation : Biological process
+Primosome : Cellular component
+Aromatic hydrocarbons catabolism : Biological process
+Inhibition of host apoptosis by viral BCL2-like protein : Biological process
+LIM domain : Domain
+Synaptosome : Cellular component
+Gap protein : Molecular function
+Luminescence : Biological process
+Mobility protein : Molecular function
+Aminopeptidase : Molecular function
+Acetylation : PTM
+Necrosis : Biological process
+Voltage-gated sodium channel impairing toxin : Molecular function
+Xeroderma pigmentosum : Disease
+Sulfation : PTM
+Calcium : Ligand
+Parkinsonism : Disease
+Lipid biosynthesis : Biological process
+CF(1) : Cellular component
+Stargardt disease : Disease
+Caveolin-mediated endocytosis of virus by host : Biological process
+Terminal addition : Biological process
+Angiogenesis : Biological process
+SOS response : Biological process
+Pheromone : Molecular function
+T=4 icosahedral capsid protein : Cellular component
+Chloroplast : Cellular component
+Lipid metabolism : Biological process
+Thiamine pyrophosphate : Ligand
+Translation regulation : Biological process
+Modulation of host cell apoptosis by virus : Biological process
+Proteoglycan : PTM
+Carbon dioxide fixation : Biological process
+Xylan degradation : Biological process
+Calcium channel impairing toxin : Molecular function
+Restriction system : Biological process
+Vasoactive : Molecular function
+Zinc : Ligand
+Zinc transport : Biological process
+Cell wall biogenesis/degradation : Biological process
+Catecholamine metabolism : Biological process
+Silk protein : Molecular function
+Polysaccharide degradation : Biological process
+Riboflavin biosynthesis : Biological process
+Viral exotoxin : Molecular function
+Retinol-binding : Ligand
+One-carbon metabolism : Biological process
+Capsid inner membrane protein : Cellular component
+Ciliopathy : Disease
+Ubiquinone biosynthesis : Biological process
+Immunoglobulin domain : Domain
+Excision nuclease : Molecular function
+Blood coagulation cascade activating toxin : Molecular function
+Lyase : Molecular function
+Leigh syndrome : Disease
+Disulfide bond : PTM
+Evasion of host immunity by viral interleukin-like protein : Biological process
+Antimicrobial : Molecular function
+Spermatogenesis : Biological process
+Thyroid hormones biosynthesis : Biological process
+Transit peptide : Domain
+Protein synthesis inhibitor : Molecular function
+Fimbrium : Cellular component
+Nucleotide metabolism : Biological process
+Lantibiotic : Molecular function
+Mandelate pathway : Biological process
+Flight : Biological process
+Chromoplast : Cellular component
+Telomere : Cellular component
+Vanadium : Ligand
+Growth arrest : Biological process
+Viral immunoevasion : Biological process
+Rhizomelic chondrodysplasia punctata : Disease
+Brassinosteroid signaling pathway : Biological process
+Threonine protease : Molecular function
+Allergen : Disease
+Symport : Biological process
+Voltage-gated channel : Molecular function
+Inner capsid protein : Cellular component
+Hirschsprung disease : Disease
+Prostaglandin metabolism : Biological process
+RNA repair : Biological process
+Eukaryotic host transcription shutoff by virus : Biological process
+Ion channel impairing toxin : Molecular function
+Hemolysis : Biological process
+Methylation : PTM
+Modulation of host chromatin by virus : Biological process
+Complement alternate pathway : Biological process
+Cycloheximide resistance : Biological process
+Nemaline myopathy : Disease
+Fusion of virus membrane with host cell membrane : Biological process
+SH3-binding : Domain
+Proline metabolism : Biological process
+Transducer : Molecular function
+Protein transport : Biological process
+RNA-mediated gene silencing : Biological process
+Blood coagulation : Biological process
+Amyloidosis : Disease
+Notch signaling pathway : Biological process
+Inhibition of host MHC class II molecule presentation by virus : Biological process
+Thioether bond : PTM
+Vision : Biological process
+Viral attachment to host entry receptor : Biological process
+Virion tegument : Cellular component
+Inhibition of host TRAFs by virus : Biological process
+Self-incompatibility : Biological process
+Inhibition of host chemokines by virus : Biological process
+Host mRNA suppression by virus : Biological process
+Inhibition of host IRF7 by virus : Biological process
+Basement membrane : Cellular component
+SCID : Disease
+T=147 icosahedral capsid protein : Cellular component
+Signal-anchor : Domain
+Inhibition of host RIG-I by virus : Biological process
+Chromosome : Cellular component
+Dipeptidase : Molecular function
+Sterol biosynthesis : Biological process
+Deoxyribonucleotide synthesis : Biological process
+Spliceosome : Cellular component
+Protease inhibitor : Molecular function
+Meckel syndrome : Disease
+Hereditary spastic paraplegia : Disease
+Leader peptide : Molecular function
+tRNA-binding : Ligand
+Growth factor binding : Ligand
+Sporozoite : Developmental stage
+GMP biosynthesis : Biological process
+Modulation of host cell cycle by virus : Biological process
+Tellurium resistance : Biological process
+Autism spectrum disorder : Disease
+Inhibition of host complement factors by virus : Biological process
+Peroxidase : Molecular function
+Catecholamine biosynthesis : Biological process
+Down syndrome : Disease
+Competence : Biological process
+Opioid peptide : Molecular function
+Host endosome : Cellular component
+Tumor antigen : Molecular function
+NAD : Ligand
+Bacteriochlorophyll biosynthesis : Biological process
+Leukodystrophy : Disease
+Apoptosis : Biological process
+Bromodomain : Domain
+Flagellar rotation : Biological process
+T=3 icosahedral capsid protein : Cellular component
+Phosphoprotein : PTM
+Capsule : Cellular component
+Cell cycle : Biological process
+Phospholipid metabolism : Biological process
+Intron homing : Biological process
+Heterocyst : Developmental stage
+IgA-binding protein : Ligand
+tRNA processing : Biological process
+Exocytosis : Biological process
+Hemoglobin-binding : Ligand
+Oogenesis : Biological process
+S-adenosyl-L-methionine : Ligand
+Segmentation polarity protein : Molecular function
+Collagen degradation : Biological process
+Complement system impairing toxin : Molecular function
+Menaquinone biosynthesis : Biological process
+Tetrahydrobiopterin biosynthesis : Biological process
+Host cell receptor for virus entry : Molecular function
+Nodulation : Biological process
+Mental retardation : Disease
+T=219 icosahedral capsid protein : Cellular component
+Corneal dystrophy : Disease
+Viral attachment to host cell flagellum : Biological process
+Complete proteome : Technical term
+Iron storage : Biological process
+Chromosome partition : Biological process
+Cilium biogenesis/degradation : Biological process
+Lysosome : Cellular component
+Viral genome circularization : Biological process
+Unfolded protein response : Biological process
+Neurotransmitter biosynthesis : Biological process
+Congenital myasthenic syndrome : Disease
+Plasmid partition : Biological process
+Plant defense : Biological process
+Inhibition of host RLR pathway by virus : Biological process
+Covalent protein-RNA linkage : PTM
+Voltage-gated potassium channel impairing toxin : Molecular function
+Outer capsid protein : Cellular component
+Plasminogen activation : Biological process
+Sexual differentiation : Biological process
+Melanin biosynthesis : Biological process
+Modulation of host ubiquitin pathway by viral deubiquitinase : Biological process
+Inhibition of eukaryotic host translation factors by virus : Biological process
+Ribosomal skipping : Coding sequence diversity
+Viral transcription : Biological process
+Microtubular inwards viral transport : Biological process
+Apoplast : Cellular component
+Viral latency : Biological process
+Transmembrane : Domain
+Acetoin biosynthesis : Biological process
+Cytoplasmic vesicle : Cellular component
+Peptide transport : Biological process
+Tachyzoite : Developmental stage
+Cytolysis : Biological process
+Glutathionylation : PTM
+Elliptocytosis : Disease
+Inhibition of host apoptosis by viral FLIP-like protein : Biological process
+Aromatic amino acid biosynthesis : Biological process
+Thyroid hormone : Molecular function
+Centromere : Cellular component
+Hemolymph clotting : Biological process
+Isoprene biosynthesis : Biological process
+Intermediate capsid protein : Cellular component
+Actin capping : Molecular function
+Host gene expression shutoff by virus : Biological process
+rRNA processing : Biological process
+Mineral balance : Biological process
+LDL : Cellular component
+Trimethoprim resistance : Biological process
+Host cell projection : Cellular component
+Hemorrhagic toxin : Molecular function
+Phospholipase A2 inhibitor : Molecular function
+Conidiation : Biological process
+Biotin : Ligand
+Phenylalanine catabolism : Biological process
+Clathrin- and caveolin-independent endocytosis of virus by host : Biological process
+Metal-binding : Ligand
+Adaptive immunity : Biological process
+Flowering : Biological process
+Viral penetration via lysis of host organellar membrane : Biological process
+Quinone : PTM
+Hypotensive agent : Molecular function
+Target membrane : Cellular component
+Methotrexate resistance : Biological process
+Autoimmune encephalomyelitis : Disease
+Niemann-Pick disease : Disease
+RNA translational shunting : Coding sequence diversity
+Chloride channel impairing toxin : Molecular function
+Inhibition of host TYK2 by virus : Biological process
+DNA excision : Biological process
+Manganese : Ligand
+Thiamine biosynthesis : Biological process
+Ubl conjugation : PTM
+Vitamin A : Ligand
+Transcription antitermination : Biological process
+Mitochondrion inner membrane : Cellular component
+Sodium/potassium transport : Biological process
+Dejerine-Sottas syndrome : Disease
+Vitamin D : Ligand
+Phospholipid biosynthesis : Biological process
+Limb-girdle muscular dystrophy : Disease
+Carbohydrate metabolism : Biological process
+Albinism : Disease
+Antiport : Biological process
+Vitamin C : Ligand
+Host lipid droplet : Cellular component
+Calcium channel : Molecular function
+Gaseous exchange : Biological process
+Viral short tail ejection system : Molecular function
+Mitosis : Biological process
+Lysine biosynthesis : Biological process
+Congenital disorder of glycosylation : Disease
+Cell projection : Cellular component
+Autism : Disease
+Autoinducer synthesis : Biological process
+Zellweger syndrome : Disease
+mRNA splicing : Biological process
+Thylakoid : Cellular component
+Sigma factor : Molecular function
+Viral genome ejection through host cell envelope : Biological process
+Laminin EGF-like domain : Domain
+Metalloprotease : Molecular function
+Aminoacyl-tRNA synthetase : Molecular function
+Membrane : Cellular component
+Serine protease : Molecular function
+Bile pigment : Ligand
+NADP : Ligand
+GTP-binding : Ligand
+Nickel transport : Biological process
+Autocatalytic cleavage : PTM
+Inhibition of host mitotic exit by virus : Biological process
+Hormone : Molecular function
+Activation of host NF-kappa-B by virus : Biological process
+Amino-acid biosynthesis : Biological process
+Cytokinin biosynthesis : Biological process
+Iron transport : Biological process
+Leber congenital amaurosis : Disease
+Thiamine catabolism : Biological process
+Sphingolipid metabolism : Biological process
+Sterol metabolism : Biological process
+Detoxification : Biological process
+Copulatory plug : Cellular component
+G-protein coupled acetylcholine receptor impairing toxin : Molecular function
+Phosphotransferase system : Biological process
+Synapse : Cellular component
+Pyrrolidone carboxylic acid : PTM
+Superinfection exclusion : Biological process
+Fimbrium biogenesis : Biological process
+Lipoyl : Domain
+Gibberellin signaling pathway : Biological process
+Glaucoma : Disease
+Epidermolysis bullosa : Disease
+Viral penetration into host cytoplasm : Biological process
+Mitogen : Molecular function
+Serine esterase : Molecular function
+Karyogamy : Biological process
+Growth regulation : Biological process
+Jasmonic acid signaling pathway : Biological process
+Hypersensitive response elicitation : Biological process
+Host cell junction : Cellular component
+Cytoplasmic inwards viral transport : Biological process
+DNA damage : Biological process
+Initiation factor : Molecular function
+Bence-Jones protein : Molecular function
+Schiff base : Ligand
+Chromate resistance : Biological process
+Inhibition of host IKBKE by virus : Biological process
+Taste : Biological process
+Fusion of virus membrane with host endosomal membrane : Biological process
+Reference proteome : Technical term
+Cobalt : Ligand
+Xylose metabolism : Biological process
+Viral nucleoprotein : Ligand
+Schizophrenia : Disease
+Virus entry into host cell : Biological process
+Receptor : Molecular function
+Neurotoxin : Molecular function
+Long QT syndrome : Disease
+DNA recombination : Biological process
+Respiratory chain : Biological process
+Ascorbate biosynthesis : Biological process
+Hypersensitive response : Biological process
+Ionotropic glutamate receptor inhibitor : Molecular function
+Asthma : Disease
+Arginine biosynthesis : Biological process
+Protein phosphatase inhibitor : Molecular function
+Brugada syndrome : Disease
+Endoplasmic reticulum : Cellular component
+Ice nucleation : Molecular function
+CF(0) : Cellular component
+DNA invertase : Molecular function
+Presynaptic neurotoxin : Molecular function
+Capsid protein : Cellular component
+Neurotransmitter : Molecular function
+Modulation of host cell cycle by viral cyclin-like protein : Biological process
+Pyropoikilocytosis : Disease
+Coenzyme M biosynthesis : Biological process
+Viral tail assembly : Biological process
+Plasmid : Technical term
+Peptidoglycan-anchor : PTM
+Suppressor of RNA silencing : Molecular function
+Erythrocyte maturation : Biological process
+Acyltransferase : Molecular function
+Antiviral defense : Biological process
+Organellar chromatophore : Cellular component
+Gluconeogenesis : Biological process
+mRNA processing : Biological process
+Bradyzoite : Developmental stage
+Prenyltransferase : Molecular function
+D-amino acid : PTM
+Tricarboxylic acid cycle : Biological process
+Inhibition of host JAK1 by virus : Biological process
+Cap snatching : Biological process
+Allosteric enzyme : Technical term
+FAD : Ligand
+Bradykinin receptor impairing toxin : Molecular function
+cGMP : Ligand
+Steroid-binding : Ligand
+Fucose metabolism : Biological process
+Molybdenum : Ligand
+Ribosomal protein : Molecular function
+Signal : Domain
+Tyrosine catabolism : Biological process
+Inhibition of host STAT1 by virus : Biological process
+Hyperlipidemia : Disease
+Ligase : Molecular function
+Copper transport : Biological process
+Secreted : Cellular component
+Iron : Ligand
+Fungicide : Molecular function
+Degradation of host cell envelope components during virus entry : Biological process
+Viral attachment to host cell pilus : Biological process
+Translocation : Biological process
+Charcot-Marie-Tooth disease : Disease
+Queuosine biosynthesis : Biological process
+Acute phase : Biological process
+Tungsten : Ligand
+Pathogenesis-related protein : Molecular function
+Congenital hypothyroidism : Disease
+Leucine biosynthesis : Biological process
+RNA termination-reinitiation : Coding sequence diversity
+Cell membrane : Cellular component
+Thiol protease : Molecular function
+Lactose metabolism : Biological process
+Chitin-binding : Ligand
+Glycosidase : Molecular function
+T=169 icosahedral capsid protein : Cellular component
+Cytoskeleton : Cellular component
+rRNA-binding : Ligand
+Storage protein : Molecular function
+Sodium channel : Molecular function
+Glycosyltransferase : Molecular function
+Fusion of virus membrane with host membrane : Biological process
+Abscisic acid biosynthesis : Biological process
+Nuclease : Molecular function
+Golgi apparatus : Cellular component
+Extracellular matrix : Cellular component
+Plastid : Cellular component
+Pyruvate : Ligand
+Inhibition of host interferon signaling pathway by virus : Biological process
+Familial hemophagocytic lymphohistiocytosis : Disease
+VLDL : Cellular component
+Bartter syndrome : Disease
+Pontocerebellar hypoplasia : Disease
+Spinocerebellar ataxia : Disease
+Direct protein sequencing : Technical term
+Thiol protease inhibitor : Molecular function
+Inhibition of host TAP by virus : Biological process
+Actin-dependent inwards viral transport : Biological process
+Septation : Biological process
+Short QT syndrome : Disease
+Heme biosynthesis : Biological process
+Myofibrillar myopathy : Disease
+Virus endocytosis by host : Biological process
+Tyrosine biosynthesis : Biological process
+Pigment : Ligand
+ATP synthesis : Biological process
+Hereditary hemolytic anemia : Disease
+mRNA capping : Biological process
+ADP-ribosylation : PTM
+Taste-modifying protein : Molecular function
+Auxin biosynthesis : Biological process
+Pyrimidine biosynthesis : Biological process
+Protein splicing : PTM
+Cholesterol metabolism : Biological process
+Antibiotic resistance : Biological process
+Cobalamin : Ligand
+Calmodulin-binding : Ligand
+Meiosis : Biological process
+Transcription termination : Biological process
+CBS domain : Domain
+Inflammatory response : Biological process
+Amyloplast : Cellular component
+Nephronophthisis : Disease
+Vasodilator : Molecular function
+Endocytosis : Biological process
+Platelet aggregation activating toxin : Molecular function
+Modulation of host ubiquitin pathway by viral ubl : Biological process
+Metalloenzyme inhibitor : Molecular function
+Magnesium : Ligand
+Hydrogen ion transport : Biological process
+Microphthalmia : Disease
+Proto-oncogene : Disease
+Host membrane : Cellular component
+Plastoquinone : Ligand
+Chlorophyll : Ligand
+Maple syrup urine disease : Disease
+Modulation of host ubiquitin pathway by virus : Biological process
+Amyotrophic lateral sclerosis : Disease
+Collagen : Domain
+Reaction center : Cellular component
+Heparan sulfate : PTM
+Urea cycle : Biological process
+Peroxisome : Cellular component
+Primary hypomagnesemia : Disease
+Alpha-amylase inhibitor : Molecular function
+Superantigen : Molecular function
+Glycolate pathway : Biological process
+Cytoplasm : Cellular component
+Pore-mediated penetration of viral genome into host cell : Biological process
+Vasoconstrictor : Molecular function
+Chylomicron : Cellular component
+Kinetochore : Cellular component
+Host-virus interaction : Biological process
+Viral ion channel : Molecular function
+Modulation of host E3 ubiquitin ligases by virus : Biological process
+Bacteriocin transport : Biological process
+Growth factor : Molecular function
+Plastid inner membrane : Cellular component
+Hydroxylation : PTM
+Viral movement protein : Molecular function
+Autoimmune uveitis : Disease
+Viral tail sheath protein : Cellular component
+Ion transport : Biological process
+Potassium transport : Biological process
+DNA-directed DNA polymerase : Molecular function
+c-di-GMP : Ligand
+Viral tail fiber assembly : Biological process
+Cholesterol biosynthesis : Biological process
+Viral capsid assembly : Biological process
+Guanine-nucleotide releasing factor : Molecular function
+Degradation of host chromosome by virus : Biological process
+Light-harvesting polypeptide : Molecular function
+Glycolysis : Biological process
+Viral genome excision : Biological process
+Atrial fibrillation : Disease
+Nuclear pore complex : Cellular component
+Plastid outer membrane : Cellular component
+Photorespiration : Biological process
+Bardet-Biedl syndrome : Disease
+Carotenoid biosynthesis : Biological process
+Leucine-rich repeat : Domain
+Putrescine biosynthesis : Biological process
+Morphogen : Molecular function
+Organic radical : PTM
+Amelogenesis imperfecta : Disease
+Chloride channel : Molecular function
+Photoreceptor protein : Molecular function
+Inhibition of host IRF9 by virus : Biological process
+Chromatin regulator : Molecular function
+Ethylene biosynthesis : Biological process
+Inhibition of host PKR by virus : Biological process
+Clathrin-mediated endocytosis of virus by host : Biological process
+Emery-Dreifuss muscular dystrophy : Disease
+T=7 icosahedral capsid protein : Cellular component
+Mucopolysaccharidosis : Disease
+Behavior : Biological process
+Lectin : Ligand
+Inhibition of host caspases by virus : Biological process
+Porphyrin biosynthesis : Biological process
+Voltage-gated chloride channel impairing toxin : Molecular function
+Antifreeze protein : Molecular function
+Postsynaptic neurotoxin : Molecular function
+Alternative promoter usage : Coding sequence diversity
+Dermonecrotic toxin : Molecular function
+Potassium channel impairing toxin : Molecular function
+Bait region : Domain
+Chromosomal rearrangement : Coding sequence diversity
+Triplet repeat expansion : Coding sequence diversity
+Glutathione biosynthesis : Biological process
+Syncytium formation induced by viral infection : Biological process
+Hearing : Biological process
+Immunoglobulin C region : Domain
+Bacteriochlorophyll : Ligand
+Spermidine biosynthesis : Biological process
+Transport : Biological process
+Pregnancy : Biological process
+Melatonin biosynthesis : Biological process
+Cyclosporin : Ligand
+Potassium : Ligand
+Inhibition of host DNA replication by virus : Biological process
+Diaminopimelate biosynthesis : Biological process
+Glycogen biosynthesis : Biological process
+Diamond-Blackfan anemia : Disease
+Alzheimer disease : Disease
+Asperger syndrome : Disease
+Inhibition of host TBK1 by virus : Biological process
+Inhibition of host innate immune response by virus : Biological process
+Glutamine amidotransferase : Domain
+Inhibition of host STAT2 by virus : Biological process
+Chlorophyll biosynthesis : Biological process
+Inhibition of host RNA polymerase II by virus : Biological process
+Defensin : Molecular function
+Age-related macular degeneration : Disease
+Gonadal differentiation : Biological process
+Oxygen transport : Biological process
+Neurotransmitter degradation : Biological process
+Host cell membrane : Cellular component
+Phytochrome signaling pathway : Biological process
+Hereditary multiple exostoses : Disease
+Dystroglycanopathy : Disease
+Purine biosynthesis : Biological process
+Non-syndromic deafness : Disease
+Bernard Soulier syndrome : Disease
+Aspartyl esterase : Molecular function
+Phenylalanine biosynthesis : Biological process
+Transmembrane beta strand : Domain
+Cellulose degradation : Biological process
+Fruit ripening : Biological process
+Aspartic protease inhibitor : Molecular function
+Two-component regulatory system : Biological process
+Cytadherence : Biological process
+Auxin signaling pathway : Biological process
+Host mitochondrion : Cellular component
+Congenital erythrocytosis : Disease
+Platelet aggregation inhibiting toxin : Molecular function
+cGMP biosynthesis : Biological process
+Sarcoplasmic reticulum : Cellular component
+Purine salvage : Biological process
+Fibrinolysis : Biological process
+Tissue remodeling : Biological process
+Cardiomyopathy : Disease
+Lignin biosynthesis : Biological process
+Steroid biosynthesis : Biological process
+Milk protein : Molecular function
+Evasion of bacteria-mediated translation shutoff by virus : Biological process
+Apicoplast : Cellular component
+4Fe-4S : Ligand
+Holoprosencephaly : Disease
+Viral budding via the host ESCRT complexes : Biological process
+Decarboxylase : Molecular function
+Viral tail tube protein : Cellular component
+Monooxygenase : Molecular function
+Arabinose catabolism : Biological process
+Inhibition of eukaryotic host transcription initiation by virus : Biological process
+Viral tail protein : Cellular component
+Inhibition of host IRF3 by virus : Biological process
+Host cytoplasm : Cellular component
+Modulation of host virulence by virus : Biological process
+Periplasm : Cellular component
+Inhibition of host tapasin by virus : Biological process
+Extinct organism protein : Technical term
+Myotoxin : Molecular function
+Cilium : Cellular component
+Cataract : Disease
+Phycobilisome : Cellular component
+Premature ovarian failure : Disease
+Topoisomerase : Molecular function
+Progressive external ophthalmoplegia : Disease
+Deafness : Disease
+Viral penetration via permeabilization of host membrane : Biological process
+Enterotoxin : Molecular function
+Exonuclease : Molecular function
+Viral receptor tropism switching : Biological process
+3D-structure : Technical term
+Kringle : Domain
+Parkinson disease : Disease
+Pyridoxal phosphate : Ligand
+Congenital generalized lipodystrophy : Disease
+Cell wall : Cellular component
+Inhibition of host mRNA nuclear export by virus : Biological process
+Inhibition of host MHC class I molecule presentation by virus : Biological process
+Amphibian defense peptide : Molecular function
+Mitochondrion nucleoid : Cellular component
+Cobalt transport : Biological process
+Calcium-activated potassium channel impairing toxin : Molecular function
+Thick filament : Cellular component
+Trypanosomiasis : Disease
+Tight junction : Cellular component
+LTQ : PTM
+Alkaloid metabolism : Biological process
+MHC I : Cellular component
+Whooping cough : Disease
+Molybdenum cofactor biosynthesis : Biological process
+Integrin : Molecular function
+Dyskeratosis congenita : Disease
+Activator : Molecular function
+PQQ biosynthesis : Biological process
+Lithium : Ligand
+Fatty acid metabolism : Biological process
+Dwarfism : Disease
+Peptidoglycan synthesis : Biological process
+Transcription regulation : Biological process
+Cytochrome c-type biogenesis : Biological process
+Coenzyme A biosynthesis : Biological process
+Bromination : PTM
+Viral DNA replication : Biological process
+Lipid-binding : Ligand
+Nucleotidyltransferase : Molecular function
+Fertilization : Biological process
+Oxidation : PTM
+Signalosome : Cellular component
+Merozoite : Developmental stage
+Hyaluronic acid : Ligand
+Kallmann syndrome : Disease
+Exopolysaccharide synthesis : Biological process
+Citrate utilization : Biological process
+Lissencephaly : Disease
+Postsynaptic cell membrane : Cellular component
+Ribosome biogenesis : Biological process
+Enterobactin biosynthesis : Biological process
+Tryptophan biosynthesis : Biological process
+Nylon degradation : Biological process
+Photosystem II : Cellular component
+Maltose metabolism : Biological process
+Interferon antiviral system evasion : Biological process
+Coiled coil : Domain
+Phosphonate transport : Biological process
+Cleavage on pair of basic residues : PTM
+Blood group antigen : Molecular function
+Voltage-gated calcium channel impairing toxin : Molecular function
+Cyclin : Molecular function
+Cyanelle : Cellular component
+Mitochondrion outer membrane : Cellular component
+cAMP biosynthesis : Biological process
+ATP-binding : Ligand
+Serine/threonine-protein kinase : Molecular function
+SH3 domain : Domain
+Electron transport : Biological process
+Gout : Disease
+Host endoplasmic reticulum : Cellular component
+Craniosynostosis : Disease
+Proteomics identification : Technical term
+Motor protein : Molecular function
+Complement pathway : Biological process
+Quinate metabolism : Biological process
+DNA end degradation evasion by virus : Biological process
+Microsome : Cellular component
+Isopeptide bond : PTM
+IgE-binding protein : Ligand
+GPI-anchor : PTM
+Aortic aneurysm : Disease
+Alternative initiation : Coding sequence diversity
+Target cell cytoplasm : Cellular component
+Diabetes insipidus : Disease
+Muscle protein : Molecular function
+GPI-anchor biosynthesis : Biological process
