@@ -5,7 +5,7 @@ from Bio import SeqIO
 from Bio.Align.Applications import ClustalwCommandline
 
 nb = 1
-fich = "sequences_groupe1"
+fich = "./fasta/sequences_groupe1"
 """groupes = {}
 organism = ""
 
