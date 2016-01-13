@@ -5,13 +5,9 @@ from Bio import SeqIO
 from Bio.Align.Applications import ClustalwCommandline
 
 nb = 1
-
-groupes = {}
+fich = "sequences_groupe1"
+"""groupes = {}
 organism = ""
-
-##for record in SeqIO.parse(f2, 'uniprot-xml') :
-##    if record.name == 'K4CDJ0_SOLLC' :
-##        print record.seq
 
 def extraction_grp(j):
     org = 0
@@ -47,17 +43,13 @@ for j in range(15) :
 	nb += 1
     	fgroupe.close()
 
-
+"""
                 
-##clustalw_exe = r"/net/cremi/mlopez001006/Bureau/clustalw2"
-##
-##clustalw_cline = ClustalwCommandline(clustalw_exe, infile=fich+".fasta")
-##
-###print clustalw_cline.matrix
-##
-##print clustalw_cline()
-##
-##assert os.path.isfile(clustalw_exe), "Clustal W executable missing"
-##stdout, stderr = clustalw_cline()
-##tree = Phylo.read(fich+".dnd", "newick")
-##Phylo.draw_ascii(tree)
+clustalw_exe = r"/net/cremi/mlopez001006/Bureau/clustalw2"
+
+clustalw_cline = ClustalwCommandline(clustalw_exe, infile=fich+".fasta")
+
+assert os.path.isfile(clustalw_exe), "Clustal W executable missing"
+stdout, stderr = clustalw_cline()
+tree = Phylo.read(fich+".dnd", "newick")
+Phylo.draw_ascii(tree)
