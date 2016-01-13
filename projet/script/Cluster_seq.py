@@ -4,30 +4,45 @@ from Bio import Phylo
 from Bio import SeqIO
 from Bio.Align.Applications import ClustalwCommandline
 
-f1 = open('groupes.csv', 'r') # fichier de groupes générés par les keywords
 f2 = open('uniprot_riz.xml', 'r')
 f3 = open('uniprot_tomate.xml', 'r')
 
-i = 1
+nb = 1
 
 groupes = {}
 organism = ""
+ 
 
-# implémenter la lecture du fichier
 
-for key in groupes.keys() :
-    fgroupe = open("sequences_groupe"+i+".fasta", 'w')
-    for i in groupes[key] :
-        #récupérer l'organisme (tomate ou riz)
-        if organism == 'tomate' :
+def extraction_grp(j):
+    print "coucou ! "
+    org = 0
+    grp = {}
+    f1 = open('./../tables/cluster'+str(j)+'.csv', 'r')
+    data = f1.readlines()
+    for lignes in data :
+        lignes = lignes.split(";")
+        if lignes[2] == "Oryza sativa subsp. japonica (Rice)\n" :
+            org = 0 # 0 pour le riz
+        elif lignes[2] == "Solanum lycopersicum (Tomato)\n" :
+            org = 1 # 1 pour la tomate
+        grp[lignes[0]] = org
+
+    return grp
+        
+for j in range(15) :
+    groupes = extraction_grp(j)
+    fgroupe = open("sequences_groupe"+str(nb)+".fasta", 'w')
+    for i in groupes.keys():
+        if groupes[i] == 1:
             for record in SeqIO.parse(f3, 'uniprot-xml') :
                 if record.name == i :
                     fgroupe.write(">Solanum|"+str(record.name)+"\n"+str(record.seq)+"\n\n")
-        if organism == 'riz' :
+        if groupes[i] == 0:
             for record in SeqIO.parse(f2, 'uniprot-xml') :
                 if record.name == i :
                     fgroupe.write(">Oriza|"+str(record.name)+"\n"+str(record.seq)+"\n\n")
-    i += 1
+    nb += 1
                 
 ##clustalw_exe = r"/net/cremi/mlopez001006/Bureau/clustalw2"
 ##
