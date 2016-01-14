@@ -17,9 +17,10 @@ def gen_files(proteomes):
 	taxonomy = open('../tables/taxonomie.csv', 'w')
 	taxonomy.write('nom; nom_du_gene; organisme; existence_proteine\n')
 
+	fasta = open ('../tables/seq.fasta', 'w')
 	keywlist = open('../keywlist.txt', 'r')
 	dict_categories_kw = parser(keywlist)
-
+	kw_count={}
 	#Parsage du fichier xml et ecriture dans les fichiers adequats
 	id_prot = 0
 	for p in range(len(proteomes)):
@@ -53,9 +54,18 @@ def gen_files(proteomes):
 			seq = str(record.seq)
 			sequence.write(str(id_seq) +'; '+ str(longueur) +'; '+ str(masse) +'; '+ seq + '\n')
 
+			# #Ecriture dans seq.fasta
+			# fasta.write(">"+ str(id_prot) + "|" + str(record.name)+"\n"+str(record.seq)+"\n\n")
+
+
 			#Ecriture dans fonction.csv
 			if record.annotations.has_key('keywords'):
 				list_kw = get_kw_type(record.annotations['keywords'], dict_categories_kw)
+				for plop in range(len(record.annotations['keywords'])):
+					if record.annotations['keywords'][plop] not in kw_count.keys():
+						kw_count[record.annotations['keywords'][plop]] = 1
+					else:
+						kw_count[record.annotations['keywords'][plop]] = kw_count[record.annotations['keywords'][plop]] + 1
 			else:
 				list_kw = ["None", "None", "None"]
 			if record.annotations.has_key('comment_catalyticactivity'):

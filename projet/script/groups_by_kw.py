@@ -45,6 +45,7 @@ def kmean(kw_per_prot, list_of_id):
 	dist_per_prot = gen_distance_matrix(kw_per_prot, list_of_id)
 
 
+
 def dist(prot1, prot2):
 	distances = []
 	for cat_of_kw in prot1.keys():
@@ -65,7 +66,7 @@ def dist(prot1, prot2):
 		distances.append(d)
 	return distances
 
-def average_dist(prot, distance_matrix, list_of_id_funct):
+def average_dist(cluster, distance_matrix, list_of_id_funct):
 	
 	sum_ = [0, 0, 0]
 	for i in range(prot):

@@ -23,9 +23,8 @@ def extraction_grp(j):
         grp[lignes[0]] = org
 
     return grp
-
-proteomes = [uniprot_tomate.xml', uniprot_tomate.xml']
-for j in range(11,13) :
+        
+for j in range(13,15) :
 	groupes = extraction_grp(j)
     	fgroupe = open("./fasta/sequences_groupe"+str(j)+".fasta", 'w')
     	for i in groupes.keys():
