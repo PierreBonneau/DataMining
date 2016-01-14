@@ -4,9 +4,9 @@ from Bio import Phylo
 from Bio import SeqIO
 from Bio.Align.Applications import ClustalwCommandline
 
-nb = 1
+#nb = 0
 fich = "./fasta/sequences_groupe1"
-"""groupes = {}
+groupes = {}
 organism = ""
 
 def extraction_grp(j):
@@ -24,9 +24,9 @@ def extraction_grp(j):
 
     return grp
         
-for j in range(15) :
+for j in range(0,6) :
 	groupes = extraction_grp(j)
-    	fgroupe = open("./fasta/sequences_groupe"+str(nb)+".fasta", 'w')
+    	fgroupe = open("./fasta/sequences_groupe"+str(j)+".fasta", 'w')
     	for i in groupes.keys():
         	if groupes[i] == 1:
 			f3 = open('uniprot_tomate.xml', 'r')
@@ -40,11 +40,11 @@ for j in range(15) :
 				if record.name == i :
 					fgroupe.write(">Oriza|"+str(record.name)+"\n"+str(record.seq)+"\n\n")
     			f2.close()
-	nb += 1
+	#nb += 1
     	fgroupe.close()
 
-"""
-                
+
+"""                
 clustalw_exe = r"/net/cremi/mlopez001006/Bureau/clustalw2"
 
 clustalw_cline = ClustalwCommandline(clustalw_exe, infile=fich+".fasta")
@@ -52,4 +52,4 @@ clustalw_cline = ClustalwCommandline(clustalw_exe, infile=fich+".fasta")
 assert os.path.isfile(clustalw_exe), "Clustal W executable missing"
 stdout, stderr = clustalw_cline()
 tree = Phylo.read(fich+".dnd", "newick")
-Phylo.draw_ascii(tree)
+Phylo.draw_ascii(tree) """
