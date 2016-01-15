@@ -1,7 +1,9 @@
 import sys
 from Bio import SeqIO
 from parser_keywords import parser
-     
+
+#Ce script permet de générer les tables de l'entrepot de données
+
 def gen_files(proteomes):
 	#Creation des fichiers correspondants aux tables
 	proteine = open('../tables/proteine.csv', 'w')
@@ -125,6 +127,7 @@ def gen_files(proteomes):
 	taxonomy.flush()
 	taxonomy.close()
 
+#Récupére les keywords appartenant aux catégories qui nous intéressent pour chaque entrées
 def get_kw_type(keywords, dict_categories_kw):
 	biological_process = []
 	molecular_function =[]

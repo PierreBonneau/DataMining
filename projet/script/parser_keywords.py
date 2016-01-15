@@ -1,3 +1,5 @@
+#Ce script permet de traiter les information du fichier keywlist.txt d'UniProt (sans son entete)
+# Il permet d'associer chaque keywords à sa catégorie facilement
 def parser(file_):
 	kw = ''
 	cat = ''
@@ -13,7 +15,7 @@ def parser(file_):
 			cat = words[1]
 			kw_category[kw] = cat
 	return kw_category
-
+#Retourne le compte de mots-clé par catégories dans un dictionnaire
 def count_kw(dict_, file_):
 	entete = file_.readline()
 	line = file_.readline()

@@ -3,6 +3,8 @@ from Bio import Phylo
 from Bio import SeqIO
 from Bio.Align.Applications import ClustalwCommandline
 
+#Ce script permet de générer des fichier fasta pour des cluster déjà définis
+
 for i in range(15):
 	i_file_name = '../tables/cluster'+str(i)+'.csv'
 	input_file = open(i_file_name, 'r')
