@@ -1,0 +1,24 @@
+---------------------------------------------
+Génération de la table de données
+---------------------------------------------
+
+* Télécharger préalablement deux protéomes au format XML
+
+* Exécuter le fichier python 'file_gen.py' 
+
+
+---------------------------------------------
+Gestion des keywords
+---------------------------------------------
+
+* Executer 'groups_by_kw.py' pour générer les groupes issus du traitement par keywords
+
+*!* Ce fichier ne fonctionne pas *!*
+
+---------------------------------------------
+Clusterisation par phylogénie
+---------------------------------------------
+
+* Executer 'script_test.py' qui génère les fichiers .fasta nécessaires à l'affichage d'un arbre phylogénique
+
+* Executer 'Phylo.py' qui renvoi en sortie l'arbre phylogénique
