@@ -2,8 +2,10 @@ import sys
 from Bio import SeqIO
 from parser_keywords import parser
 
-#Ce script permet de générer les tables de l'entrepot de données
-
+"""
+Ce script permet de générer les tables de l'entrepôt de données
+Il parse les fichier xml d'uniprot et écrit des fichiers csv
+"""
 def gen_files(proteomes):
 	#Creation des fichiers correspondants aux tables
 	proteine = open('../tables/proteine.csv', 'w')

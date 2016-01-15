@@ -3,7 +3,11 @@ from Bio import Phylo
 from Bio import SeqIO
 from Bio.Align.Applications import ClustalwCommandline
 
-#Ce script permet de générer des fichier fasta pour des cluster déjà définis
+"""
+Ce script permet de générer des fichiers fasta pour des clusters déjà définis
+enregistrés dans des fichiers clusterX.csv
+Retourne des fichiers sequences_clusterX.fasta
+"""
 
 for i in range(15):
 	i_file_name = '../tables/cluster'+str(i)+'.csv'
@@ -21,7 +25,7 @@ for i in range(15):
 			prot_per_organism[words[2]].append(words[0])
 	input_file.flush()
 	input_file.close()
-	o_file_name = 'result'+str(i)+'.fasta'
+	o_file_name = 'sequences_cluster'+str(i)+'.fasta'
 	result_file = open(o_file_name, 'w')
 	for k in prot_per_organism.keys():
 		if k == "Oryza sativa subsp. japonica (Rice)":

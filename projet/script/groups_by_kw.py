@@ -1,4 +1,7 @@
-# Ce script de vait permettre de réaliser des cluster selon les keywords de chaque protéine, via une matrice de distance
+ """
+ Ce script devait permettre de réaliser des clusters selon les keywords de chaque protéine
+ Il permet la génération de la matrice de distance par rapport aux listes de keywords
+ """
 
 def get_id_in_cluster(cluster_file):
 	list_id_prot = []
