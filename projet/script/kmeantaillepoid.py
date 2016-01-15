@@ -1,3 +1,7 @@
+"""
+script provenant de tulip utilisant en entrée un graph tulip généré à partir des fichier csv de l'entrepot de donné et générant une visualisation de  graph sur tulip et un fichier csv contenant les id des protéines et les numéros de cluster
+
+"""
 # Powered by Python 2.7
 
 # To cancel the modifications performed by the script
@@ -43,6 +47,7 @@ def main(graph):
 	kmean=graph.getIntegerProperty("kmean")
 	nom = graph.getStringProperty("nom")
 	sequence = graph.getStringProperty("sequence")
+	organisme = graph.getStringProperty("organisme")
 	viewBorderColor = graph.getColorProperty("viewBorderColor")
 	viewBorderWidth = graph.getDoubleProperty("viewBorderWidth")
 	viewColor = graph.getColorProperty("viewColor")
@@ -65,49 +70,101 @@ def main(graph):
 	viewTexture = graph.getStringProperty("viewTexture")
 	viewTgtAnchorShape = graph.getIntegerProperty("viewTgtAnchorShape")
 	viewTgtAnchorSize = graph.getSizeProperty("viewTgtAnchorSize")
-	kmean_d(graph,masse,longueur, kmean)
-	create_arbre(graph,masse,longueur,kmean )
+	kmean_d(graph,masse,longueur, kmean, nom,organisme)
+	#create_arbre(graph,masse,longueur,kmean )
 
-def kmean_d(graph,masse,longueur,kmean):
+def kmean_d(graph,masse,longueur,kmean,nom,organisme):
 	viewColor = graph.getColorProperty("viewColor")
 	for n in graph.getNodes():
 		tmp_tab=[float(masse[n]),float(longueur[n])]
 		tab_n.append(tmp_tab)
 		tab2.append(n)
-	k=sqrt(len(tab2)/2)
-	print int(k)
-	centroid,label=sp.kmeans2(tab_n,int(k))	
+	k=15
+	
+	centroid,label=sp.kmeans2(tab_n,k)	
 	
 	for i in range (len(tab2)):
 		kmean[tab2[i]]=label[i]
+	tab_fic=[]	
+	grp_cluster=open("grp_cluster","w")
+	
+	for k in graph.getNodes():
+		grp_cluster.write(str(nom[k])+"; ")
+		grp_cluster.write(str(kmean[k])+"; ")
+		grp_cluster.write(str(organisme[k]))
+		grp_cluster.write("\n")
+
 	for j in graph.getNodes():
-		if kmean[j]==0:
-			viewColor[j]=tlp.Color.Red
-		if kmean[j]==1:
-			viewColor[j]=tlp.Color.Blue
-		if kmean[j]==2:
-			viewColor[j]=tlp.Color.Green
-		if kmean[j]==3:
-			viewColor[j]=tlp.Color.Violet
-		if kmean[j]==4:
-			viewColor[j]=tlp.Color.White
-		if kmean[j]==5:
-			viewColor[j]=tlp.Color.Yellow
-		if kmean[j]==6:
-			viewColor[j]=tlp.Color.Black
-		if kmean[j]==7:
-			viewColor[j]=tlp.Color.Pink
-		if kmean[j]==8:
-			viewColor[j]=tlp.Color.Brown
-	
-	return k
-	
-def create_subgraph(graph, var3 ,var2 , var ):
-	for n in graph.getNodes():
+		for f in range(len(tab_fic)):
+			if kmean[j]==0 and f==0:
+			
+				viewColor[j]=tlp.Color.Red
+			elif kmean[j]==1 and f==1:
+							
+				
+				viewColor[j]=tlp.Color.Blue
+			elif kmean[j]==2 and f==2:
+			
+				viewColor[j]=tlp.Color.Green
+				
+			elif kmean[j]==3 and f==3:
+						
+			
+				viewColor[j]=tlp.Color.Violet
+				
+			elif kmean[j]==4 and f==4:
+				
+				viewColor[j]=tlp.Color.White
+				
+			elif kmean[j]==5 and f==5:
+							
+				viewColor[j]=tlp.Color.Yellow
+			elif kmean[j]==6 and f==6:
+							
+			
+				viewColor[j]=tlp.Color.Black
+				
+			elif kmean[j]==7 and f==7:
+						
+			
+				viewColor[j]=tlp.Color.Pink
+			elif kmean[j]==8 and f==8:
+							
+				
+				viewColor[j]=tlp.Color.Brown
+			elif kmean[j]==9 and f==9:
+			
+				viewColor[j]=tlp.Color.Violet
+			elif kmean[j]==10 and f==10:
 		
-		if var[n]==0:
-			graph.addSubGraph(name="cluster"+str(var[n]))
-		if var[n] !=0:
-			graph.addSubGraph(name="cluster"+str(var[n]))
+				viewColor[j]=tlp.Color.Green
+			elif kmean[j]==11 and f==11:
+						
+				
+				viewColor[j]=tlp.Color.Yellow
+			elif kmean[j]==12 and f==12:
+					
+				
+				viewColor[j]=tlp.Color.Black
+			elif kmean[j]==13 and f==13:
+							
+				
+				viewColor[j]=tlp.Color.Cyan
+			elif kmean[j]==14 and f==14:
+				
+				viewColor[j]=tlp.Color.Amaranth
+			elif kmean[j]==15 and f==15:
+			
+				viewColor[j]=tlp.Color.Blue
+			
+		
+	
+#def create_subgraph(graph, var3 ,var2 , var ):
+#	for n in graph.getNodes():
+#		
+#		if var[n]==0:
+#			graph.addSubGraph(name="cluster"+str(var[n]))
+#		if var[n] !=0:
+#			graph.addSubGraph(name="cluster"+str(var[n]))
 					
 	
